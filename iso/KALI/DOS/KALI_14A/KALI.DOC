@@ -1,0 +1,2237 @@
+                  Kali Documentation (DOS Kali)
+             (c) Copyright 1995, 1996, 1997 Kali, Inc.
+                       All right reserved.
+                         updated 5/30/97
+
+
+                        END USER LICENSE
+
+PLEASE  READ  THIS LICENSE AGREEMENT BEFORE LOADING  THE  PROGRAM
+ONTO  YOUR  COMPUTER.  IF YOU DO NOT ACCEPT  THE  TERMS  OF  THIS
+AGREEMENT, DO NOT LOAD THE PROGRAM.
+
+
+DEFINITIONS  - The following definitions apply to  the  terms  as
+they appear in this License:
+
+"Kali" means Kali, Inc.
+
+"The   Program  ("Program")  means  the  computer  programs   and
+documentation included in this package.
+
+"Demo  Mode" means a version of the Program in which a time limit
+has been imposed.
+
+"Full Functionality Mode" means a version of The Program in which
+all functions operate with no time limit.
+
+
+LICENSE GRANT - Kali grants you a nonexclusive license to:
+
+1.  Load the Program onto your computer's storage device from the
+media provided.
+
+2.  Obtain  from  Kali  serial numbers to  enable  the  purchased
+portion of the Program to run in Full Functionality Mode.
+
+3.  Allow  others  to run Program in Demo Mode, unless  or  until
+requested by Kali not to do so.
+
+4.  Obtain from Kali free email support for a period of  30  days
+following issuance of your serial numbers.
+
+
+You may not:
+
+1.  Remove  or  alter any of Kali's copyright  notices  from  any
+components of Program.
+
+2. Sublicense, rent or lease all or part of the Program.
+
+3.  Use  the  Program  with the intent to violate  any  licensing
+agreements or contracts.
+
+4.  Modify, adapt, translate, create derivative works, decompile,
+disassemble, or otherwise reverse engineer or attempt to  reverse
+engineer  or  derive source code from all or any portion  of  the
+Program  or anything incorporated therein or permit or  encourage
+any third party to do so.
+
+5.  Engage  in  cheating  or  other unacceptable  behavior  while
+playing games or chatting; unacceptable behavior includes but  is
+not  limited  to  vulgar  or  abusive language,  and  intentional
+flooding of channels.
+
+Violation  of  the above-stated rules may result in temporary  or
+permanent  revocation  of this license and  cancellation  of  the
+registration codes in the purchased portion of the Program.
+
+ONCE SERIAL NUMBERS HAVE BEEN OBTAINED FROM KALI, THE LICENSE  TO
+RUN THE PROGRAM IN FULL FUNCTIONALITY MODE MAY BE ASSIGNED TO  AN
+INDIVIDUAL *OR* A COMPUTER, I.E, A SINGLE INDIVIDUAL MAY USE  THE
+PROGRAM IN SEVERAL LOCATIONS, OR SEVERAL PERSONS MAY SEQUENTIALLY
+RUN THE PROGRAM ON THE SAME COMPUTER.
+
+
+COPYRIGHT AND OTHER RESTRICTIONS
+
+The  Program  is  owned by Kali and is protected  by  the  United
+States copyright laws and international treaty provisions.   Kali
+retains  all rights not expressly granted. None of the components
+of  the  Program  (including the documentation)  may  be  copied,
+removed or altered, in whole or part, for any unauthorized use.
+
+
+DISCLAIMER OF WARRANTY
+
+KALI   DISCLAIMS  ALL  WARRANTIES,  EITHER  EXPRESS  OR  IMPLIED,
+INCLUDING   BUT   NOT   LIMITED   TO   IMPLIED   WARRANTIES    OF
+MERCHANTABILITY  AND  FITNESS  FOR  A  PARTICULAR  PURPOSE,  WITH
+RESPECT TO THE PROGRAM.
+THE END-USER ASSUMES ALL RISK AS TO THE SUITABILITY, QUALITY, AND
+PERFORMANCE  OF  THE  PROGRAM.  IN NO EVENT  WILL  KALI,  OR  ITS
+DIRECTORS,  OFFICERS, EMPLOYEES OR AFFILIATES, BE LIABLE  TO  THE
+END-USER FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, SPECIAL  OR
+EXEMPLARY  DAMAGES  (INCLUDING  DAMAGES  FOR  LOSS  OF   BUSINESS
+PROFITS,   BUSINESS  INTERRUPTION,  LOSS  OF  DATA  OR   BUSINESS
+INFORMATION, AND THE LIKE) ARISING OUT OF THE USE OF OR INABILITY
+TO  USE  THE PROGRAM OR ACCOMPANYING WRITTEN MATERIALS,  EVEN  IF
+KALI HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+KALI'S  LIABILITY  TO  THE END-USER (IF ANY)  FOR  ACTUAL  DIRECT
+DAMAGES  FOR ANY CAUSE WHATSOEVER, AND REGARDLESS OF THE FORM  OF
+THE ACTION, WILL BE LIMITED TO, AND IN NO EVENT SHALL EXCEED, THE
+AMOUNT ORIGINALLY PAID TO KALI FOR THE LICENSE OF THE SOFTWARE.
+
+Kali  does  not  warrant  that  the  Program  will  satisfy   the
+requirements of your computer system, or that the Program or  its
+documentation are without defect or error, or that the  operation
+of the Program will be uninterrupted.
+
+No  Kali distributor, dealer, agent, or employee is authorized to
+make any warranty for the Program.
+
+U.S. GOVERNMENT RESTRICTED RIGHTS
+
+The  Program and all accompanying written materials are  provided
+with  RESTRICTED RIGHTS.  Use, duplication, or disclosure by  the
+Government  is subject to restrictions as set forth in Restricted
+Rights  in  Technical Data and Computer Software  Clause  at  FAR
+52.227-7013c(1)(ii) or FAR 52.227-19.
+
+GENERAL
+
+This  Agreement constitutes the entire Agreement between you  and
+Kali.  It is governed by the laws of the State of Georgia, United
+States.
+
+
+                          Introduction
+
+What  is Kali? Kali is the largest Internet gaming system in  the
+world  with  over 120,000 users and 500 servers in 60  countries.
+Kali  supports more games than any other internet gaming  system,
+including  Descent, Descent 2, Warcraft, Warcraft  2,  Command  &
+Conquer,  NetMech (DOS and Win95), EF2000, Top Gun,  Duke  Nukem,
+Quake,  Doom, Doom II, Heretic, Hexen, Apache, Rise of the Triad,
+Terminal Velocity, VR Pool, Super Karts, Mortal Combat 3, Big Red
+Racing,  and  several other games. The Kali system runs  in  DOS,
+Windows 95, OS/2, and Macintosh. The Kali Servers run on UNIX and
+Windows 95/NT machines and can each handle up to 400 users.
+
+How  does Kali work? It's actually quite simple. Kali fools  your
+games  into  thinking your computer is connected to a very  large
+local  IPX network. Almost any game that supports the IPX network
+protocol will work with Kali. Of course there are exceptions; not
+all  games  can handle the packet loss and slow speeds  that  are
+common on the Internet. Some games like Warcraft 2 and Duke Nukem
+have  special options built into the games to improve  the  speed
+over the Internet.
+
+How  well  does  Kali work? It definitely works better  for  some
+people  than  others.  Using a fast  modem  (28.8  or  ISDN)  and
+connecting  to  a  fast Internet provider  will  make  Kali  work
+better.  Not all modems work equally. Not all Internet  providers
+work the same. You might have to shop around to find good quality
+and  low  prices.  We  don't  currently  recommend  any  specific
+Internet   providers  (also  called  ISPs  -   Internet   Service
+Providers),  but  you can use several of the  national  providers
+like Earthlink, Concentric, MSN, and Netcom (Netcruiser), or find
+a local ISP that offers PPP (Point-to-Point Protocol) connections
+and has a fast Internet connection (ask for full T1 or better).
+
+How  much does Kali cost? Only $20 (US). This is a one-time  fee.
+Kali  charges  no hourly or monthly fees. Once you  register  you
+never have to pay to access the public servers and other players.
+The  only cost you will have is the cost of your Internet access.
+After all, why pay more?
+
+
+                         Other Versions
+
+Windows 95:
+
+ftp://www.kali.net/pub/kali/kaliw95.exe
+ftp://www.kali.net/pub/kali/beta/       (latest beta versions)
+
+This is a self-installing program that is VERY easy to setup  and
+works with almost all of the same games DOS Kali supports.
+
+
+OS/2:
+
+ftp://ftp.kali.net/pub/kali/k2w9.zip
+
+
+Macintosh:
+
+ftp://ftp.kali.net/pub/kali/kmac10b6.sit.Hqx
+
+
+
+                            Contents
+
+
+          Chapter I:      Getting Prepared
+
+          Chapter II:     Making the Packet Driver Connection
+
+          Chapter III:    Making the Internet Connection
+
+          Chapter IV:     Making the Kali Connection
+
+          Chapter V:      Using Kali
+
+          Chapter VI:     Using Kali Without a Server
+
+          Chapter VII:    Purchasing Kali
+
+          Chapter VIII:   Kali Servers, ftp sites, and Web sites
+
+          Chapter IX:     Troubleshooting
+
+          Chapter X:      Playing Games on Kali
+
+          Chapter XI:     Credits
+
+
+                Chapter 0: I Hate Reading the Manual!
+
+What?  You don't want to read all this and you think you're smart
+enough to just jump in there and start using it now? Well, if you
+insist, but at least follow these steps:
+
+PPP (dial-up users):
+
+1.   Put  KALIDOS.EXE in its own directory. Extract the files  by
+     typing  KALIDOS.  This will extract Kali and  several  other
+     files.
+
+2.   Get a copy of PPPSHARE.EXE from the Klos ftp site:
+
+     ftp://ftp.klos.com/pub/demo/pppshare.exe
+
+     Place PPPSHARE.EXE in the Kali directory (the same directory
+     as kalidos.exe) and extract it's files by typing PPPSHARE.
+
+3.   Edit  kali.cfg to configure your nickname, email,  realname,
+     and location.
+
+4.   Edit  wattcp.cfg  to  set "ppp = 1" (remove  the  space  and
+     semicolon from the beginning of the line).
+
+5.   Edit  net.cfg  to enter the correct com port, phone  number,
+     and modem init string.
+
+6.   Type LOAD at the DOS prompt.
+
+7.   Select "Connect" and then "Current" from the menu.
+
+8.   After the modem connects enter your user name and password.
+
+9.   Press  alt-s  to  start  the PPP driver  then  exit  PPPMENU
+     without hanging up or disconnecting.
+
+10.  Type  "KALI  /L" to get a list of servers. Then enter  "KALI
+     <server ip#>" to connect to a server. Then run KCHAT.
+
+11.  If  it  didn't work, read the rest of this document  and  be
+     more patient next time. :)
+
+SLIP and Ethernet:
+
+1. Forget it! Read the manual!
+
+
+
+                   Chapter I: Getting Prepared
+
+Hardware:
+
+If your site is directly connected to the Internet (NOT connected
+through a modem!), you'll need a network interface card (NIC) for
+your  machine (this is usually an Ethernet card). We will  assume
+that your PC is already equipped with a suitable NIC, although it
+may  currently be in use for some other non-TCP/IP function (such
+as a node on a Novell network).
+
+     NOTE:  You do NOT *need* an Ethernet card to use  Kali.
+     Kali only requires an Ethernet card if you are directly
+     connected  (like at work or school), but  it  can  also
+     work with a modem for most games.
+
+If you are not directly connected, you'll need a high speed modem
+(the  faster  the  better) as well as  an  account  with  an  ISP
+(Internet   Service   Provider)  which   has   suitable   dial-up
+facilities. A 28.8 modem is highly recommended. Some  games  will
+work with a 14.4 modem, but usually with only 2 or 3 players in a
+game.  Be  sure  the  ISP  offers SLIP or  PPP  support  (PPP  is
+recommended).
+
+NOTE: Users with "shell accounts" or who use SLIP emulators  such
+as  TIA and SLiRP can also use Kali. See the section "Using  Kali
+with a shell account."
+
+If  you're currently using SLIP or PPP, but your drivers  operate
+from  under Microsoft Windows (such as Trumpet Winsock), you MUST
+use  a DOS dialer to connect; your Windows-based drivers will NOT
+work  for  Kali.  DOS Kali will NOT work in a  DOS  window  under
+Windows  95. If you want to use Windows 95, get a copy of  Kali95
+instead (see introduction). Kali will not work in Windows 3.1  or
+3.11 at all.
+
+Software:
+
+In  addition to the hardware requirements, some software is  also
+required to complete your setup. Before you can play, you'll need
+to pick up the following:
+
+Kali for DOS. Get KALIDOS.EXE from any of these sites:
+
+ftp://ftp.kali.net/pub/kali/kalidos.exe
+ftp://ftp.internexus.net/pub/kali/kalidos.exe
+ftp://ftp.epix.net/pub/kali/kalidos.exe
+
+KALIDOS.EXE  comes  with the packet drivers for  most  SLIP,  and
+Ethernet  connections,  but it does not contain  the  PPP  driver
+anymore (sorry).  Get the Klos PPPSHARE driver from:
+
+ftp://ftp.klos.com/pub/demo/pppshare.exe
+
+
+         Chapter II: Making the Packet Driver Connection
+
+Setting  up  your  computer to use a DOS  packet  driver  can  be
+complicated  for  people who aren't network gurus.  This  section
+will  attempt to show you all the steps needed to get the  packet
+driver  installed and functioning properly. Be sure to  read  the
+correct section for the packet driver you will be using.
+
+
+Using Kali with Klos' PPPSHARE Driver
+=====================================
+
+This is the recommended setup for PPP users. Because of conflicts
+with  some ISPs (including CompuServe) you may also need  to  try
+the  Merit  PPP driver. Get ppp.zip from your favorite  Kali  ftp
+site  for  more  information.  NOTE:  Only  get  this  driver  if
+PPPSHARE doesn't work for you.
+
+A.   Get the PPPSHARE packet driver for PPP users.
+
+     Get PPPSHARE.EXE from the Klos ftp site:
+
+     ftp://ftp.klos.com/pub/demo/pppshare.exe
+
+     Put KALIDOS.EXE and PPPSHARE.EXE in a directory together.  I
+     would recommend c:\kali. It is assumed that you know how  to
+     create  a  directory in DOS. If not, you will have  to  seek
+     help from friends or books.
+
+B.   Extract the files.
+
+     Go to the Kali directory and type KALIDOS. This will extract
+     the  files  needed for this setup.  Do not run KALIDOS  ever
+     again unless you want to overwrite the setup files and start
+     over  again.  Then type PPPSHARE to extract the  PPP  packet
+     driver and related files.
+
+C.   Running PPP Menu to setup the dialer.
+
+     1.   Go  to your Kali directory and type PPPMENU. Press  the
+          Enter key over the entry labeled "Current".
+
+     2.   You  will  now get a menu with the following 6  options
+          (press Esc to return to the prior menu):
+
+          Port           - specify the com port to use
+          Modem               - settings for your modem
+          Scripting      - used to automate connection
+          LCP Parameters - advanced PPP settings
+          IP Parameters  - specify Internet settings
+          Authentication - used for automated password entry
+
+     3.   The  following  paragraphs describe each  menu  option.
+          Most users only have to set the Port and Modem options.
+          Leave  the  rest alone unless you want to  try  for  an
+          automatic  login.  We  suggest trying  a  manual  login
+          first.
+
+D.   Modify your profile.
+
+     1.   Port Settings:
+
+          I/O Port:  allows you to select com1/2/3/4 or  special.
+               If  you  select "special" you will  be  given  the
+               chance to set your modem's Base Port.
+
+          Interrupt: this is usually selected automatically based
+               on  the I/O port you selected above. For com1  and
+               com3  use  interrupt  4. For  com2  and  com4  use
+               interrupt 3.
+
+          Baudrate:  if  you are using a 16550 uart  and  a  28.8
+               modem  select  115200. Some people  have  reported
+               problems running at this speed. Try 57600  if  you
+               get  lockups. If you have a 16550 uart and a  14.4
+               modem select 57600. If you don't have a 16550 uart
+               you must select a speed of 38400 or slower.
+
+          Flow Control: select Hardware.
+
+          Open Type: select Active for most configurations.
+
+          Listen: select Don't Answer.
+
+          Connection   type:  select  Modem-Terminal.  The  other
+               settings are used for automated logins.
+
+          Frame Type: select Ethernet II
+
+
+     2.   Modem Settings:
+
+          Phone Number: put your local access number here.
+
+          Modem Name: just a description of your modem.
+
+          Command  Strings:  Use  the Initialization  Strings  to
+               setup  your  modem to use data compression,  error
+               correction, and RTS/CTS flow control.  Most  Hayes
+               compatibles  need at&f2 and USR modems  use  at&f1
+               (you  would  normally leave  the  first  two  init
+               strings alone and put your special init string  in
+               Init  String  3).  Check you modem's  manual.  The
+               Dialing  Prefix  should be set  to  ATDT  in  most
+               cases. Answer string isn't used but should be  set
+               to ATA. The hangup string for most modems is ATH0.
+
+          Timers/Counters: Set the number of Dial Retries to  10.
+               Set  the Connection Time-out to 90. Pause time  to
+               5. Inactivity time to 5
+
+     3.   Scripting Menu:
+
+          This  is  where you can setup an automatic  dialer.  We
+          recommend manually connecting first before trying this.
+          The  scripting is accomplished by having you provide  a
+          set  of prompts and the appropriate responses to  each.
+          You  do  not have to enter the prompts for dialing  and
+          connecting   since   this  will  be   taken   care   of
+          automatically  by pppshare. Your script  will  probably
+          begin  with  a prompt (Expected String) something  like
+          "username:".   The  response  would  be   your   actual
+          username. If you put a "\r" at the end of the response,
+          pppshare will type a carriage-return for you. You  *DO*
+          want this in most cases. You will then probably need to
+          enter  a  prompt for your password in a similar manner.
+          Most  standard C string sequences can be used. E.g.  \n
+          for  newline,  \0-7 octal number, \" double  quote,  \r
+          carriage  return, etc. Be sure to select modem-autodial
+          or  modem-demand dial under Connection type in the Port
+          Settings Menu.
+
+
+     4.   LCP Parameters: do not modify these unless you are told
+          to do so or you know what you are doing.
+
+          Maximum Receive Unit: set to 1500.
+
+          Async-Control Map: set to FFFFFFFF.
+
+          Magic Number: set to 00000000.
+
+          Protocol  Compression and Address/Control  Compression:
+               normal set on. Some people might have to turn this
+               off if using an older PPP terminal server.
+
+     5.   IP Parameters: you don't need to modify these.
+
+          Enable/Disable IP: Set to Enable IP.
+
+          Header  Compression: set to Disable for  pppshare.  The
+               shareware   version   will  not   support   header
+               compression. Since this won't affect  Kali,  don't
+               worry about it.
+
+          IP Address: Most people should leave this blank. If you
+               have  a  dynamically assigned IP number  (your  IP
+               number  changes each time you connect) you  always
+               leave  this  blank. With a static  IP  number  you
+               might need to enter the number here.
+
+     6.   Authentication Menu: don't worry about this unless  you
+          want to configure your connection for PAP support.
+
+E.   Save your new profile and connect to your ISP
+
+     1.   Pressing Esc on the configuration menu will prompt  you
+          with  a  menu  for  saving your setup (if  you  changed
+          anything).  Select  "Save and write net.cfg"  and  then
+          exit  PPPMENU. If you get an error when trying to  save
+          net.cfg  you  might  have entered  an  incorrect  value
+          somewhere. You will either have to exit without  saving
+          or find the bad entry.
+
+     2.   Type  LOAD  from the Kali directory. This  will  run  a
+          batch  file to load a couple of files before and  after
+          running  PPPMENU.  You will then  get  a  new  menu  in
+          PPPMENU  with several options not available before.  If
+          your  PC  locks up or hangs when trying to run LOAD  or
+          you  do  not get the new menu options, then the PPP.EXE
+          file  that  should  have loaded from the  LOAD  command
+          failed to load. This is normally caused by an incorrect
+          modem port being specified. Run the FIND_COM utility to
+          see  if  your modem is reported correctly. If not,  you
+          may     have     to     re-configure    your     modem.
+
+     3.   Press  Enter  to select the "Connect" option  and  then
+          press Enter again to select "Current". You should  then
+          get  a message that your modem is being initialized and
+          then  a  message  that your modem is dialing.  If  this
+          fails  (you  don't  hear  it dialing)  you  might  have
+          specified the wrong com port or wrong init string.
+
+     4.   If  everything  is working properly you  should  get  a
+          login prompt from your Internet provider. Normally  you
+          just have to enter your username and password. Netcom's
+          Netcruiser users will have to put a pound sign ("#") in
+          front of their username to get PPP access (if your user
+          name  is "BillyBob", you would enter "#BillyBob").  MSN
+          users  must  enter "MSN/" before their  password  like:
+          MSN/BillyBob.  Concentric users would  add  @ppp  after
+          their  username. You might have to ask your ISP how  to
+          login manually. You will then either get a message that
+          your  PPP session has started or you might just  see  a
+          stream  of  strange characters on your screen.  If  you
+          just  get  another prompt like "blah>"  you  must  type
+          something  else.  On many servers you would  type  "ppp
+          default" to start a PPP session.
+
+          Do  not  continue  unless you get a message  indicating
+          that PPP has started or you get the strange characters.
+          If you don't get a login prompt at all contact your ISP
+          to  find out if they even support manual login. If not,
+          they might use PAP or CHAP.
+
+          This  PPP driver can handle PAP by enabling PAP in  the
+          Authentication  menu  and  adding  your  username   and
+          password.  Also  be  sure  to  select  the  option  for
+          AUTODIAL for the connection type.
+
+          To use CHAP (used by AT&T) you will need the commercial
+          PPP driver from Klos. Get:
+
+          http://ftp.klos.com/pub/demo/pppdemo.zip
+
+
+     5.   At  this  point you press "alt-s" (hold down the  "alt"
+          key while pressing the "s" key). If your connection  is
+          working  properly you should be returned  to  the  main
+          menu in PPPMENU with a few new menu items.
+
+
+F.   Check your PPP connection using PPPMENU
+
+     1.   The  main  menu  looks different after connecting.  You
+          should now see 7 options:
+
+          Disconnect               - close PPP session
+          Status              - select status screens
+          Send Echo Request   - send one "echo" packet
+          Performance Test    - perform throughput test
+          Echo Test           - perform response test
+          Hang-Up             - hang up modem
+          Exit                - exit PPPMENU
+
+     2.   Press  Status several times to rotate through  the  two
+          status  screens.  On the first status  screen  the  two
+          options  at  the right labeled "LCP Status"  and  "IPCP
+          Status" should both say "Opened". If they don't, do not
+          continue. Go back to the previous step to find out what
+          went wrong.
+
+     3.   While displaying the first status screen (the one  that
+          shows all the connection statistics including number of
+          packets  sent  and received) move the cursor  to  "Send
+          Echo Request" and press Enter once. You should see  the
+          bytes   sent  increase  and  then  the  bytes  received
+          increase.
+
+     4.   Run  "Performance Test" to see how fast your connection
+          is. The idea is just to see that everything seems to be
+          working  on your PPP connection. You should see packets
+          being sent and received at about the same speed. If the
+          connection speed was set to 57600 you might see  speeds
+          around  5000-6000  bytes/second. If  the  numbers  jump
+          around,  your modem initialization string may be  wrong
+          or  your  ISP  wants  you to slow  down.  Try  a  lower
+          connection speed (115200->57600->38400->19200).
+
+     5.   Exit  PPPMENU  and  be  sure you don't  see  any  error
+          messages.  You  should see IPSTUB load with  a  message
+          that  IP  is  open and PPPSTATE should report  IPCP  is
+          open. If you see a message stating "Cannot bind to  PPP
+          driver" this just means that you must have already  run
+          "load"  before  and didn't run "unload"  before  trying
+          again.  The  message "IP Not Open" will  occur  if  you
+          didn't connect properly.
+
+G.   PPP is Connected!
+
+     You  can  now run any Internet software which uses a  packet
+     driver.  This includes the CUTCP software from Clarkson.  At
+     this point you should have a PPP connection to your ISP.
+
+     From  now  on  you should only have to type  LOAD  and  then
+     select the options to "Connect" using the "Current" profile.
+     You  will  then enter your username and password  and  press
+     "alt-s" to start PPP. Then just exit PPPMENU.
+
+     So  far you haven't done anything directly related to  Kali.
+     The next section deals with testing your Internet connection
+     itself.  This isn't the same as testing your PPP  connection
+     which we did in this chapter using PPPMENU.
+
+     Be  sure  to  skip the next few sections dealing with  other
+     packet drivers. Move on to Chapter III now.
+
+
+Using Kali with SLIP
+====================
+This  procedure  assumes  that you are using  the  cslipper  SLIP
+driver  mentioned  earlier. If you are using a different  driver,
+you'll need to change the commands which follow accordingly.
+
+A.   Obtain  Internet access from a service provider  who  allows
+     SLIP connections on their terminal server. A "shell account"
+     (where  you  log in to a remote UNIX host and type  commands
+     such  as  "telnet" and "ftp") will require a  SLIP  emulator
+     called   SLiRP   (read  the  SLiRP  section   below   before
+     continuing). How to obtain this type of service from such  a
+     provider is beyond the scope of this document.
+
+B.   Using  your favorite serial communications package, dial  in
+     to  your  service  provider,  log  in,  and  issue  whatever
+     commands  are  required to change their terminal  server  to
+     SLIP mode. How this is done varies from service provider  to
+     service  provider and is beyond the scope of this  document.
+     Check with your service provider for more details.
+
+C.   Once  you  have logged on and enabled SLIP mode,  exit  your
+     telecommunications software WITHOUT HANGING UP THE  MODEM  -
+     this is VERY IMPORTANT! Any telecommunications package worth
+     the  floppy  on  which it comes will have  a  "save  without
+     hangup"  command, or will prompt you when you  exit  to  ask
+     whether it should hang up or not.
+
+D.   Change  to the directory where you have installed  Kali  and
+     unzip the SLIP driver by typing "PKUNZIP SLIPPR15.ZIP".   If
+     you do not have PKUNZIP check the following Web page:
+
+     http://www.pkware.com/
+
+     Then run SLIPPER (or CSLIPPER). For example:
+
+     CSLIPPER com1 vec=0x60 baud=57600 ether
+
+     NOTE:  Previous versions of Kali did not require the "ether"
+     option.  This is now needed for Kali.  This basically  tells
+     Kali to treat the SLIP driver like an Ethernet driver.
+
+     Com1  is  the serial port to which your modem is  connected,
+     0x60  is the interrupt vector the packet driver should  use,
+     and  57600  is the DTE baud rate (the baud rate between  the
+     computer  and the modem, not necessarily the speed at  which
+     the  modem has connected to the remote system). Be  sure  to
+     set  the  speed in the communications program  to  the  same
+     speed  you  use  on  the cslipper command line.  The  packet
+     driver  will  display a signon message and load itself  into
+     memory. Be sure to try both slipper and cslipper if you  run
+     into problems.
+
+     Your SLIP packet driver is now loaded and ready for testing.
+
+Using Kali With a Shell Account
+===============================
+To  use  Kali with a shell account, you need a SLIP/PPP emulator.
+The  only  SLIP  emulator that current supports  port-redirection
+(something  very  important to Kali) is a program  called  SLiRP.
+Many  Internet  providers, including Netcom,  use  TIA  for  SLIP
+access. TIA 2.0 doesn't work with Kali. Use SLiRP instead.
+
+A.   You  *must*  use  SLiRP version 0.9k  or  newer.  The  older
+     versions  just won't work with Kali (problems with  the  UDP
+     redirection  code).  To  get SLiRP, login  into  your  shell
+     account  and from there download the SLiRP source code  from
+     your  favorite Kali site, or the latest can always be  found
+     at:
+
+     ftp://blitzen.canberra.edu.au/pub/slirp/
+
+B.   The instructions for installing SLiRP are included with this
+     program.  The installation of SLiRP is done from your  shell
+     account,  not  DOS. Basically, you will need  to  unzip  the
+     archive first by typing:
+
+     gunzip slirp-0.9k.tar.gz
+
+C.   You then must "untar" the archive by typing:
+
+     tar -xvf slirp-0.9k.tar
+
+D.   This  will  create a directory structure called slirp-0.9k/.
+     Go  to  the  src subdirectory by typing "cd slirp-0.9k/src".
+     Configure SLiRP for your server by typing:
+
+     configure
+
+E.   Then make the executable program by typing:
+
+     make
+
+     This  will create a file called "slirp". Copy this  file  to
+     your home directory. Type something like:
+
+     cp slirp ~
+
+F.   Next,  follow all the steps for using SLIP above. As far  as
+     connecting  to  your SLIP provider, connect  to  your  shell
+     account as you normally would. If you are connecting through
+     a  terminal server, be sure to get an 8 bit connection using
+     rlogin.  Some terminal servers have commands like  "terminal
+     download"  or  "set session 1 passall" to provide  a  better
+     connection  for pseudo SLIP users. If you have trouble  with
+     Kali working through a terminal server, be sure to look into
+     this. After attaching and logging in, just type slirp.  Exit
+     your  communication program without hanging up and  continue
+     like other SLIP users (see above).
+
+G.   You  will  probably not be able to run Kali in  server  mode
+     using a SLiRP connection.
+
+
+
+Ethernet Setup Procedure - Normal Packet Drivers
+================================================
+
+Note:  This  section  deals with setting  up  a  straight  packet
+driver. Although this works in most cases, there are some  setups
+that require an ODI driver because a straight packet driver isn't
+available. For these people check the next section.
+
+A.   START  WITH  A  CLEAN BOOT!!!!! Set up your  CONFIG.SYS  and
+     AUTOEXEC.BAT files to load as few drivers as possible.  Some
+     definite  things  to  exclude are  memory  managers  (HIMEM,
+     EMM386,  QEMM, etc.) and network drivers (e.g. LSL, IPXODI).
+     Most  games  don't  need the former,  and  the  latter  will
+     probably conflict with the packet driver. We recommend  that
+     you   prepare  an  alternate  configuration  (the   multiple
+     configuration facility built into MS-DOS is ideal  for  this
+     purpose;  see your DOS manual for details) specifically  for
+     Internet games with a CONFIG.SYS portion containing  only  a
+     FILES=20  line, and an AUTOEXEC.BAT portion containing  only
+     the  line  "prompt=$p$g". Be sure to include the line  which
+     loads  your  mouse  driver (if you play your  game  using  a
+     mouse).
+
+B.   Set  up  the  packet driver. If you do not  already  have  a
+     suitable packet driver installed on your machine, now is the
+     time  to  install  one. Start by determining  your  Ethernet
+     card's  IRQ  setting,  its base I/O port  setting,  and  its
+     memory  address  setting (if any). You  should  be  able  to
+     determine  this by looking at the card itself and consulting
+     the  user  manual.  You'll need some  if  not  all  of  this
+     information,  depending upon which  packet  driver  you  use
+     and/or  type  of  hardware you have (for example,  some  IBM
+     computers  with  the  MicroChannel  bus  can  determine  the
+     settings  on  the card automatically without you  having  to
+     supply  them on the packet driver command line).  Unzip  the
+     appropriate  driver  from  Crynwr Packet  Driver  collection
+     archive.  In  our  example,  the  packet  driver  is  called
+     SMC_WD.COM.  By  looking  at the jumpers  on  the  card  and
+     consulting the manual, I determined that the card  has  been
+     set  to  IRQ  7, Base I/O port address 300h,  and  the  base
+     memory address is at segment d800h. For this example, I have
+     chosen  to  use interrupt 60h for the packet driver.  Packet
+     drivers  typically operate on an interrupt in the  range  of
+     60h to 80h inclusive; since nothing else in my sample system
+     happens to be using the first available interrupt (INT 60h),
+     I  chose  that. Thus, to load my packet driver,  I  use  the
+     command line
+
+     SMC_WD 0x60 0x7 0x300 0xd800
+
+     where  0x60 is the packet driver interrupt, 0x7 is  the  IRQ
+     setting on the card, 0x300 is the I/O port base address, and
+     0xd800 is the memory base address (NOTE: all numbers are  in
+     C-style  HEX notation). Don't worry if you don't  understand
+     what  all this stuff means - as long as you use the  correct
+     numbers, your packet driver should work. NOTE: If your PC is
+     currently  part  of a Novell network (e.g. Netware,  Netware
+     Lite, Personal Netware) the parameters you need can be found
+     in  a  file called NET.CFG, usually located in your \NOVELL,
+     \NWLITE  or  \NWCLIENT subdirectories (along  with  all  the
+     other drivers needed by Novell). Add the proper command line
+     to  the AUTOEXEC.BAT for your Kali configuration so that the
+     packet driver will be loaded automatically whenever you boot
+     using the Kali partition.
+
+     When  successfully loaded, the packet driver should  give  a
+     sign on message and report the Ethernet address of your  NIC
+     when  you  load it. Chances are that if your  NIC  has  been
+     functioning properly for other tasks (e.g. as a  node  on  a
+     Novell  network) then you'll have no problems here. If  not,
+     or  if there are any error or warning messages, something is
+     wrong  (D'OHH!). One possibility is that one of the settings
+     on  your  NIC is in conflict with those of another expansion
+     card in your system. No two cards can have the same IRQ, I/O
+     port,  or memory address settings, nor can the memory  areas
+     of  two  cards overlap. Whatever the cause, you'll  need  to
+     find and correct the problem before continuing.
+
+
+
+Ethernet Setup Procedure - ODI driver
+=====================================
+
+A.   Unzip  the  ODI packet driver by typing "PKUNZIP ODIPKT"  in
+     the  Kali  directory.  You should get  LSL.COM,  ODIPKT.EXE,
+     STARTNET.BAT,  NET.CFG, TERMIN.COM, and  ODIPKT.DOC  (a  doc
+     similar to this section).
+
+B.   Find  an  ODI  driver for your Ethernet card. This  will  be
+     found on the setup disk that came with the Ethernet card. If
+     you  can't  find it, then there's no need to  read  anything
+     else... :)
+
+C.   Put  your  ODI  driver in Kali directory with all  of  these
+     other files.
+
+D.   Edit net.cfg for the correct settings. These settings may be
+     different  depending on your particular Ethernet card.  Read
+     the  ODI instructions and sample net.cfg file that came with
+     your Ethernet card for more information.
+
+     Sample net.cfg for a 3c509 driver:
+
+     Link Support
+          Buffers   4 1500
+          MemPool   4096
+
+     link driver 3C509
+          Int       5
+          Port      300
+          Mem       c8000
+          Frame     Ethernet_II
+
+     Note:  replace "3C509" with the name of your own ODI  driver
+     (do not add the .exe suffix).
+
+E.   Edit startnet.bat to run your own ODI driver. For example:
+
+     @echo off
+     lsl
+     3c509
+     odipkt 0 96
+
+F.   Run  STARTNET.BAT by typing STARTNET at the DOS prompt.  You
+     should get messages like this:
+
+     NetWare Link Support Layer v2.05 (930910)
+     (C) Copyright 1990-1993 Novell, Inc. All Rights Reserved.
+
+     BUFFERS 4 1500
+     MEMPOOL 4096
+     Configuration File "C:\KALI\ODI\NET.CFG" used.
+
+     Max Boards 4, Max Stacks 4
+     Buffers 4, Buffer size 1500 bytes, Memory pool 4096 bytes.
+
+     3Com 3C509 EtherLink III MLID w/ DME v1.00 (920706)
+     (C) Copyright 1992 3Com Corp. All Rights Reserved
+
+     Int 10, Port 300, Mem EC000, Node Address 608C65B294
+     Max Frame 1514 bytes, Line Speed 10 Mbps
+     Board 1, Frame ETHERNET_II
+
+     ODIPKT 2.1
+     (c) Copyright Daniel Lanciani 1991-1993. All rights reserved
+     This software is provided with NO WARRANTY.
+     Using Ethernet framing, class 1
+     ODIPKT is installed and ready.
+
+G.   Run Kali like normal.
+
+H.   Unload  ODIPKT by typing "TERMIN 0x60". Make  sure  Kali  is
+     unloaded before doing this since TERMIN doesn't check.
+
+
+
+          Chapter III: Making the Internet Connection
+
+A:   Configuring your Internet connection
+
+     Your  Internet settings for Kali and all other wattcp  based
+     programs   are   stored   in  wattcp.cfg.   Other   Internet
+     applications  like  CUTCP use their own configuration  files
+     (for CUTCP the settings are stored in config.tel).
+
+
+     PPP users
+
+     The  load.bat file should have already configured wattcp.cfg
+     for  you except for the nameserver. Ethernet and SLIP  users
+     would  have to edit this manually. If you have a problem  or
+     you want to setup your nameserver you can edit wattcp.cfg by
+     using  an  editor to edit/view its contents. Your wattcp.cfg
+     file would look something like this (do not actually use any
+     of the numbers listed below; this is just an example):
+
+          ppp = 1
+          nameserver = 123.123.123.10
+          my_ip = 123.123.123.22
+          netmask = 255.255.255.0
+          gateway = 123.123.123.1
+
+     The  ppp  = 1 setting tells Kali that we are using PPP.  The
+     nameserver tells Kali and other wattcp apps where to  lookup
+     Internet  names.  For example, if you  wanted  to  access  a
+     server  called "kali.net" you will have to list a nameserver
+     so wattcp can lookup that name and try to connect to it's IP
+     number: 205.244.188.24.
+
+     The  number  for netmask and gateway will usually  stay  the
+     same  after  each  connection. For  most  people  the  my_ip
+     setting will change each time you connect. The load.bat file
+     runs a program called PPPWAT which will automatically update
+     this  number  for you so you won't have to  change  it  each
+     time.
+
+
+     Ethernet users
+
+     Contact the network administrator for your site and find out
+     the  IP  address for your machine, the IP address  for  your
+     gateway  or  router, the IP address of at least  one  Domain
+     Name  Server local to your site, and your netmask value.  IP
+     addresses  consist  of four groups of  digits  separated  by
+     periods.  In  our  example,  the  machine's  IP  address  is
+     128.191.23.5,  the gateway is 128.191.23.1, the  netmask  is
+     255.255.255.0, and the nameserver address is 128.191.44.67.
+
+     NOTE:  it is important to use the numeric IP addresses,  not
+     the  actual  host  names. NOTE: If you have  other  Internet
+     programs  currently  installed on your machine,  such  as  a
+     Gopher client, the Trumpet newsreader, or the iFrag program,
+     you  can  probably  find the information  you  need  in  the
+     configuration  files  used  for  those  programs.   If   the
+     application  is based on the Waterloo TCP package,  it  will
+     have  its own WATTCP.CFG, in which case you can simply  copy
+     it  over to your Kali directory. When you have collected all
+     this  information, use your favorite ASCII  text  editor  to
+     edit the WATTCP.CFG file in your Kali directory. Edit or add
+     the  lines beginning with my_ip=, gateway=, nameserver=, and
+     netmask=. On our example machine, the WATTCP.CFG file for an
+     Ethernet user looks like this:
+
+          my_ip = 128.191.23.5
+          gateway = 128.191.23.1
+          netmask = 255.255.255.0
+          nameserver = 128.191.23.9
+
+     Save the changed file and exit back to DOS.
+
+     If you don't know the proper values for some or all of these
+     settings,  you can see if your site runs what  is  called  a
+     BOOTP server. If your LAN has a BOOTP server installed,  you
+     can  put  "BOOTP" on the "my_ip=" line and leave  the  other
+     lines  out  (except the ppp=1 line). Kali will  contact  the
+     BOOTP  server  and determine all the settings  it  needs  to
+     communicate  with  other machines on the Internet.  If  your
+     site  is  not running a BOOTP server, then your  task  is  a
+     little more difficult (but not impossible!).
+
+     If  you  know  your  machine's IP  address,  but  you  can't
+     determine the other values, you can often get away with some
+     educated  guesswork. For instance, the gateway for a  subnet
+     usually has an IP address ending in .1, as is the case  with
+     our  example.  Thus, if your IP address is  xxx.yyy.zzz.www,
+     try  setting your gateway's IP address to xxx.yyy.zzz.1.  As
+     for  the  subnet mask, a common value for this parameter  is
+     255.255.255.0.  In  some cases, the  gateway  value  can  be
+     something  like  xxx.yyy.1.1 with  a  corresponding  netmask
+     value of 255.255.0.0 - if one doesn't work, it can't hurt to
+     try  the other. Finally, if you don't know your nameserver's
+     IP  address,  you  can probably get by without  it  for  the
+     purposes   of  playing  Internet  games.  Since  you'll   be
+     specifying IP addresses for all of your opponents' machines,
+     a  nameserver  lookup won't be necessary  to  resolve  their
+     addresses.
+
+
+     SLIP users
+
+     You will only have to know the IP# and a nameserver; the IP#
+     is  usually  reported each time you connect. The  nameserver
+     isn't required for Kali. IP addresses consist of four groups
+     of   digits  separated  by  periods.  In  our  example,  the
+     machine's  IP  address is 128.191.23.5  and  the  nameserver
+     address is 128.191.44.67.
+
+     When  you have collected this information, use your favorite
+     ASCII  text editor to edit the WATTCP.CFG file in your  Kali
+     directory.  Edit or add the lines beginning with  my_ip  and
+     nameserver=.  On  our example machine, the  WATTCP.CFG  file
+     looks like this:
+
+         ppp = 1
+         my_ip = 128.191.23.5
+         nameserver = 128.191.23.9
+
+     NOTE:  The requirement for PPP=1 for SLIP users is new.   We
+     know it's not a PPP connection, but with the addition of the
+     "ether"  option needed for slipper/cslipper the SLIP  driver
+     now works like the PPP driver by emulating an Ethernet card.
+
+     Save the changed file and exit back to DOS.
+
+     If you don't know the proper values for some or all of these
+     settings,  you can see if your site runs what  is  called  a
+     BOOTP server. If your LAN has a BOOTP server installed,  you
+     can  put  "BOOTP" on the "my_ip=" line and leave  the  other
+     lines  out  (except the ppp=1 line). Kali will  contact  the
+     BOOTP  server  and determine all the settings  it  needs  to
+     communicate  with  other machines on the Internet.  If  your
+     site  is  not running a BOOTP server, then your  task  is  a
+     little more difficult (but not impossible!)
+
+B.   Testing Your Internet Connection
+
+     The  easiest  way  to test your connection  is  to  use  the
+     PING.EXE program. This application will try to send a packet
+     to another node on the Internet and if everything is working
+     the  other node will respond and PING will display the  time
+     for  the  packet to make the round trip. If  you  are  using
+     SLiRP for SLIP/PPP emulation the ping command will not  work
+     (skip this test).
+
+     Try typing:
+
+     PING 205.244.188.24  10
+
+     This   will   send  10  ping  packets  to  the   server   at
+     205.244.188.24.  If everything is working you should  get  a
+     response  to most of these packets. Don't expect  to  get  a
+     response  to  all 10 packets. You should get about  7  or  8
+     responses  each time. Try this using other IP  numbers  that
+     you know exist.
+
+
+C.   Testing your name server
+
+     The NSLOOKUP.EXE program will ask your nameserver to convert
+     Internet  numbers  to names or names to numbers.  This  test
+     will not work if you didn't fill in the nameserver entry  in
+     wattcp.cfg.   This is not required for Kali to work.  Try  a
+     few different queries like:
+
+          NSLOOKUP 205.244.188.24
+          NSLOOKUP ftp.cdrom.com
+          NSLOOKUP kali.net
+
+     Each  query should return the "resolved" name or number.  It
+     will  automatically convert names to numbers or  numbers  to
+     names.
+
+
+D.   Your Internet connection works!
+
+     You  should now have a good packet driver connection  and  a
+     good  Internet  connection. Kali should now  work  properly.
+     Read the next chapter on setting up and running Kali.
+
+
+
+                Chapter IV: Making the Kali Connection
+
+A.   Configuring Kali
+
+     To  configure Kali you will have to edit the kali.cfg  file.
+     At  this time there is no menu available to do this for you.
+     Use  the  DOS edit command or your favorite text  editor  to
+     edit the file kali.cfg.
+
+     Your  kali.cfg file might look something like this (actually
+     my kali.cfg file looks very much like this):
+
+          nickname = KingThug
+          realname = My Name
+          email = me@my.com
+          other = Call 1-800-965-KALI and order Kali today!
+          location = USA, Earth, Sol
+          tracker = 205.244.188.24
+          @newworld = 205.244.188.24
+          @bob = 128.191.23.34
+
+     The   nickname,  realname,  email,  and  tracker  lines  are
+     required. Always set tracker to the number above unless  you
+     are informed that the tracker has been moved.
+
+     The  lines  beginning with the @ sign are server  shortcuts.
+     These lines allow you to type:
+
+     KALI @newworld
+
+     and  Kali  will look in the kali.cfg file for "@world="  and
+     replace this with the actual ip# or address.
+
+     The  "tracker"  tells  Kali where  the  global  Kali  Server
+     Tracker  is  located. You can type "kali /l" and  Kali  will
+     query all the servers on the Kali Tracker.
+
+B.   Configuring Kali Chat (kchat)
+
+     Edit  the  kchat.cfg file just like you edited the  kali.cfg
+     file using a test editor. Here is a sample kchat.cfg file:
+
+         Nickname = KingThug
+         lines = 50
+         beeponarrival
+         macro1 = I *really* hate macros!
+         macro2 = This is my second macro!
+         macro3 = This is my third macro!
+         macro8 = This is my eighth macro!
+         macro9 = /quit Bah! Humbug!
+
+     The  macros  are accessible by pressing alt-#,  where  #  is
+     replaced by the number of the macro. "lines" can be  set  to
+     25  or  50.  "beeponarrival" causes Kali Chat to  beep  when
+     people join. Read the sample kchat.cfg for more information.
+
+
+C.   Querying the Kali Tracker
+
+     At the DOS prompt (while still in your Kali directory) type:
+
+     KALI /L
+
+     Kali should display a list of servers. You will see a server
+     number, a server name, an ip#, a description, and possibly a
+     list of players who are connected to each server.
+
+D.   Connect to a server
+
+     Decide which of the servers you want to connect to and type:
+
+          KALI #<server number>
+
+     Replace  <server  number> with the number from  the  Tracker
+     listing  above.  Optionally you can  enter  the  servers  IP
+     number manually by typing:
+
+          KALI 205.244.188.24
+
+     That  IP  number would connect you to the Kali server  named
+     -> Descent <-.
+
+     Once  connected you should see a detailed list  of  everyone
+     connected to the server and what "process" they are running.
+     The  "process" might be a game or it might say "KCHAT" which
+     means the users is in the chat facility.
+
+
+
+                        Chapter V: Using Kali
+
+A.   Finding other players: using Kali Chat (KCHAT)
+
+     When  you  connected you should have seen a list of  players
+     connected  to  the server. Typing "kali /s" will  re-display
+     this  list for you. If you see players with a process called
+     "DESCENTR"  then they are running the registered version  of
+     Descent.  See the file kaligame.faq for a detailed  list  of
+     games that show up in Kali. If you want to play Descent with
+     these  people already playing you can simply run Descent  at
+     this time and join a network game in progress.
+
+     If  you  want to play any game other than Descent  you  will
+     have  to  find other players. Players waiting for  games  or
+     just  wanting  to  talk usually run Kali Chat.  If  you  see
+     people  listed with a process called "KCHAT" then  you  know
+     these people are chatting. Just type:
+
+          KCHAT
+
+     at the DOS prompt and you should enter the Chat screen.
+
+     Kali  Chat is an IRC-like chat program for IPX networks.  It
+     was written to help people using Kali communicate before and
+     after playing games. You will automatically start out on the
+     #chat  channel.  To  see who else is on this  channel,  type
+     /who. To see everyone using Kali Chat, type /who *. To see a
+     list if users on a specific channel, type /who #channelname.
+     To  join  a channel, type /join #channelname. To exit,  type
+     /quit. After finding players for a game, exit Kali Chat  and
+     directly  launch  your game as you would for  a  normal  IPX
+     network  game (see the Chapter X or read your game's network
+     gaming instructions).
+B.   More stuff on Kali Chat:
+
+     The following commands can be issued while in Kali Chat. The
+     "/" prefix is used for all commands:
+
+     /help - display the list of commands
+     /clear - clear screen
+     /[25|50] - select 25 or 50 line mode
+     /away <message> - tell everyone you are away from your PC
+     /beep [on|off] - beep when getting a private message
+     /messages [on|off] - turns on or off server messages
+     /formet [on|off] - turns off or on text formatting
+     /join <#channel> - join a different channel
+     /who [<#channel>|*] - list people using Kali Chat
+     /whois <nickname> - get information on a registered user
+     /process <game> - show servers that have <game> listed
+     /msg [<nickname>|#<node>] <message> - send a private message
+     /me <message> - posture a message
+     /ping [<nickname>|#<node>|*] - test connection speed
+     /ignore <nickname> - toggles the ability to ignore someone
+     /offer <filename> - offer a file for people to download
+     /deoffer [file#|all] - cancel offer(s)
+     /get <nickname> <#> <name> - get file <#> as <name>
+     /xget <nickname> <#> <name> - like /get but overwrites
+     /progress - displays download progress (from sender)
+     /kali - list people connected to the Kali server
+     /names - list names and email address of user on server
+     /servers - list all active servers
+     /servers! - list all active servers and players
+     /channels - list all active channels on this server
+     /users - list users (includes channel and IP#)
+     /info <nickname> - display information on a chat user
+     /motd - display message of the day from server
+     /shell [<message>] - shell to DOS prompt (lose messages)
+     /quit [<message>] - exit chat program
+
+     PgUp  and  PgDn can be used to scroll back to  see  previous
+     text.   Ctrl-PgUp and Ctrl-PgDn will go to the top or bottom
+     of  the message buffer.  Use the up arrow key to scroll back
+     through   previously  typed  messages.   Use  Tab  to   make
+     responding  to private messages easier (it will recall  last
+     nickname uses).
+
+     Pressing  alt-x  will also exit Kali Chat.  Pressing  ctrl-l
+     will clear the screen.
+
+     When  offering a file you can offer up to 10 files at a time
+     and  several  people can download these files  at  the  same
+     time.  When you "get" a file, you can name the file anything
+     you  want and put it in any directory you want. For example,
+     if   Wyvern  offers  the  file  "#0  c:\kali\kchat.exe"  for
+     downloading,    you    can    type    "/get     Wyvern     0
+     d:\games\kali\kchat20.exe". This will take file  number  "0"
+     offered   by   Wyvern  and  place  it   in   the   directory
+     d:\games\kali\ and name the file kchat20.exe.
+
+
+
+             Chapter VI: Using Kali Without a Kali Server
+
+     Kali will work without a server by having one of the PCs act
+     as  a  server.  In this mode Kali will only allow  8  player
+     games  (the  server plus seven clients). The  server  has  a
+     special role in this mode and the faster PC should take  the
+     honors. This PC will simply type:
+
+          KALI
+
+     and  press enter. The other PCs will use the IP# of the host
+     just like they would when connecting to a normal server. The
+     kali /s listing will not include the ping, process, loss, or
+     time  columns  like  it  does when using  a  normal  server.
+     Everything else should work normally.
+
+
+
+                     Chapter VII: Purchasing Kali
+
+     So,  are  you tired of the 15 minute limit in the  demo?  Go
+     ahead  and  register! The price of Kali is $20 (US dollars).
+     This is a one-time fee.  There are no usage fees or any fees
+     to upgrade to new versions.  This fee covers ALL versions of
+     Kali  (DOS, Win95, OS/2, and Macintosh). When you  buy  Kali
+     you  will  get your own personal serial number  and  key  to
+     unlock the full power of Kali. Play until you drop.
+
+     Once  you  buy  Kali you will be assured free upgrades  when
+     Kali is improved...even if the price goes up in the future.
+
+     ------------------------- cut here ------------------------
+
+     Kali Registration Form
+
+     Name (Please Print) ____________________________________
+
+     Address ________________________________________________
+
+     City _______________________ State/Province ____________
+
+     Zip/Postal Code ___________________ Country ____________
+
+     Phone/Fax ______________________________________________
+
+     Email Address __________________________________________
+
+     The cost for registered Kali is $20 (US currency).
+
+     Make checks payable to "Kali, Inc."
+
+     Checks must be in US Dollars and drawn on a US bank.
+
+     Mail to:  Kali, Inc.
+               PO Box 6916
+               Athens, GA 30604
+               USA
+
+     ***Be sure to include an email address!!!
+
+     ------------------------ cut here -------------------------
+
+
+Ordering options:
+
+1.   Direct from Kali, Inc. ($20.00)
+     a.   Master Card or Visa
+          1. Online: https://commerce.kali.net/kali/ (INSTANT!!!)
+          2. Call: 800-965-KALI (800-965-5254)
+          3. FAX: 706-546-8522
+          4. Email: orders@kali.net
+
+     b.   Check or money order. $20US and drawn on a bank in  the
+          US  or  Canada (postal money orders are easy to get  in
+          the  US and Canada).  Use the order form above and mail
+          your order to:
+
+          Kali, Inc.
+          PO Box 6916
+          Athens, GA 30604
+          USA
+
+2.   Axxis (Altus) - Kali's largest reseller (Master Card/Visa)
+     1. Online at http://www.axxis.com/altus
+     2. Call 888-GET-KALI (888-438-5254)
+     3. FAX 801-576-5663
+     4. Email kali@axxis.com
+
+3.   Discover Card ($20US) - Call 602-878-7001 (Starlink/Novastar)
+
+4.   Other options and International orders:
+
+     Argentina      http://www.feedback.com.ar
+
+     Australia      http://www.powerup.com.au
+
+     Belgium        http://www.area013.be/kali
+
+     Brazil         http://gns.com.br
+
+     Canada         http://games.qc.ca
+
+     Chili          http://www.interactiva.cl/default.asp
+
+     Czech Republic http://www.kali.cz
+
+     Denmark        http://www2.dk-online.dk/users/salo
+
+     Finland        http://www.kali.dlc.fi
+
+     France         http://www.alpha-c.net/kali
+
+     Germany        http://kali.arkaden.net/kali_reg.htm
+
+     Greece         http://www.compulink.gr
+
+     Hong Kong      http://www.hkstar.com/computer/games/kali.html
+
+     Italy          http://bbs.stardust.it/kali.htm
+
+     Japan          http://www.panda.co.jp/products/kali/kali.htm
+
+     Korea          http://www.iworld.net/GameLand/KALI
+
+     Macau          http://www.unitel.net/gamenet/home1.html
+
+     Netherlands    mailto:e.m.koolen@student.utwente.nl
+
+     New Zealand    http://www.ihug.co.nz/games/kali.html
+
+     Norway         http://www.mimer.no/data/kali/
+
+     Russia         http://www.peterlink.ru/misc/kali/
+
+     Singapore      http://www.singnet.com.sg/~robng
+
+     South Africa   http://www.game-net.co.za
+
+     Spain          http://www.las.es/kali
+
+     Sweden         http://www.sverige.net/kali/
+
+     Taiwan         http://www.wonder.net.tw/kali
+
+     UK        http://www.ukonline.co.uk/UKOnline/Corporate/buykali.html
+
+     If  nothing else find a local bank that has a branch in  the
+     US  and  ask  for a check or money order drawn on  their  US
+     branch for $20US.
+
+Allow  24-48  hours on credit card orders and 3-5 days  on  snail
+mail  orders from inside the US. Once we receive payment, we will
+email registration codes to you. These codes will go in your copy
+of Kali to remove the 15 minute limit. You will get free upgrades
+to  all  new  versions and your registration will work  for  DOS,
+OS/2, Win95, and Macintosh versions of Kali.
+
+
+
+         Chapter VIII: Kali Servers, ftp Sites, and Web Sites
+
+A.   This is the latest list of Kali servers:
+
+     Servers can be found by typing "kali /l".
+
+B.   Kali and related files can be found at these ftp sites:
+
+     ftp://ftp.kali.net/pub/kali/
+
+C.   The  following Web site also include information and some
+     files:
+
+     http://www.kali.net/
+
+
+                     Chapter IX: Troubleshooting
+
+Hopefully  this  might help some people who  are  having  trouble
+getting Kali to work. Just read the questions.
+
+
+Q:   PPPMENU just can't seem to open LCP. What can I try?
+
+A:   Try  removing  the  lines "ACCOMP ON" and  "PCOMP  ON"  from
+     net.cfg.  Before pressing alt-s make sure you get a  message
+     indicating  that  a PPP session has started  or  you  get  a
+     series  of strange characters. Some systems require  special
+     prefixes  and  suffixes on usernames.  See  the  Chapter  II
+     section C-4 for more information.
+
+Q:   PPPMENU reports that LCP is open but ICMP is not.  Why?
+
+A:   Normally IPCP won't open because of a communication problem
+     between your PC and the server.  The modem's init string
+     probably needs to be fixed.  For a USR or Gateway2000 Teleport
+     modem use the "at&f1" init string.  For all 100% Hayes
+     compatables use "at&f2".  Not all modems are 100% Hayes
+     compatable so check the "at" commands to see which one on
+     your modem will setup the default configuration to enable
+     RTS/CTS flow control, disable XON/XOFF flow control, enable
+     data compression, and enable error correction.  If it's still
+     not working send a copy of your net.cfg file along with a
+     description of your modem.  Also let us know what you see on
+     the screen when you manually log in.
+
+     Also, with Klos 1.45 there is a bug that will cause IPCP to
+     get disabled after editing some of the settings in pppmenu.
+     Either go back to pppmenu and re-enable IPCP or go to the
+     net.cfg file and remove the line that says IPCP DISABLE.
+
+
+Q:   Why does PING report, "ERROR: Cannot access packet driver"?
+
+A:   Either  the  packet  driver didn't load  properly  from  the
+     load.bat  file or you are running Kali already.  You  cannot
+     run PING while Kali is loaded.
+
+
+Q:   Why   does   Kali   report,   "Error:   no   response   from
+     xxx.xxx.xxx.xxx"?
+
+A:   Either because the server you are trying to attach to is not
+     running Kali or you don't have Kali configured properly.
+
+     Have you tested your connection yet? Can you ping any or all
+     of  the  servers?  Have you tested your Internet  connection
+     yet?
+
+
+Q:   Why can't I ping anything?
+
+A:   Good  question! This means you are actually trying  to  test
+     your connection before using Kali! I'm very happy!
+
+     Anyway,  this is almost always caused by an incorrect  value
+     in  wattcp.cfg. Either your netmask, gateway, or my_ip value
+     is most likely wrong (assuming the PPP connection was tested
+     successfully)
+
+     Are  you  absolutely positive that your modem is  configured
+     for   hardware  flow  control  (RTS/CTS)  and  not  software
+     (XON/XOFF)?  For Hayes compatible modems, this  is  normally
+     done with AT&F2. For USR modems, try using AT&F1.
+
+     Try  using  a  netmask  of 0.0.0.0 in  wattcp.cfg.  Using  a
+     netmask  of  0.0.0.0 will make the wattcp kernel think  that
+     all  nodes are in your local network. It will cause Kali and
+     other wattcp apps to quit trying to use the gateway.
+
+
+Q:   I can ping a server, but I can't connect with Kali. Why?
+
+A:   Wow...getting close. The most common problem causing this is
+     an incorrect modem init string. Make sure that hardware flow
+     control  and  NOT  software flow control is  enable  on  the
+     modem.  This  can  also  be  caused  by  having  the   wrong
+     information in wattcp.cfg. The server might be off-line. Try
+     another  server. This also might be caused by a firewall  on
+     your  network connection. Ask your Internet provider if they
+     support UDP packets.
+
+
+Q:   OK,  I  finally connected to a server. Now my  PC  locks  up
+     after  a  few  seconds. I haven't even started a  game  yet.
+     Sometimes  it locks up before I even run Kali.  Sometimes  I
+     get the player list. What did I do wrong?
+
+A:   The  following  information  is  everything  we  know  about
+     problems  with the DOS version of Kali locking  up.  If  the
+     following  information doesn't help, please don't ask  "what
+     else can I try?" We can't think of anything else. Seriously.
+     If  you think of something that we might have missed or your
+     setup  might  include some information we never  thought  of
+     please  feel free to offer comments or suggestions  or  even
+     ask questions which aren't answered.
+
+     If  Kali  lockups  very often in almost every  program  then
+     something is probably wrong with the communications  to  the
+     modem. The initialization string, the modem, or the com port
+     is  at  fault. What type of modem do you have?  Internal  or
+     external? Do you have a 16650 uart? Use the find_com utility
+     to  find out. You will need to check your modem's manual for
+     the proper initialization string to enable only RTS/CTS flow
+     control. XON/XOFF and DCE/DTE flow control must be disabled.
+     You  also  want  to  be  sure  data  compression  and  error
+     correction are enabled. 90% of all lockup problems  are  the
+     result of the wrong initialization string, a bad uart, or  a
+     cheap modem.
+
+     Run  the performance test in pppmenu and check the send  and
+     receive  speeds. If they don't stay the same (like the  send
+     is  fast and receive is slow or none) then your modem  isn't
+     setup  for RTS/CTS flow control. If the numbers jump up  and
+     down a lot you need to lower the modem speed set in net.cfg.
+
+     With  a 16650 uart and a 28.8 modem you should expect speeds
+     of  about 5000-6000 cps in the performance test. You can get
+     higher  speeds  if you run at 115200 and your host  supports
+     this speed, but if your host doesn't support this speed your
+     performance values will jump up and down a lot. With a 16450
+     uart  you  must  set the speed to 38400 or less.  This  will
+     result  in speeds of 3000-4000cps in pppmenu.  With an  8250
+     uart  you  cannot run faster than 19200. This  will  produce
+     speeds  at  about  2000cps in pppmenu. As you  can  see  the
+     better uarts can make a big difference in throughput.
+
+     A  common  init  string  for  a Hayes  compatible  modem  is
+     "at&f2".  There are a lot of modems that claim to  be  Hayes
+     compatible  where  this init string will  NOT  work.  Please
+     check  the manual. Almost all USR modems need an init string
+     of "at&f1". When editing net.cfg set the modem init as MODEM
+     INIT3 "myinitstring". In pppmenu leave the default values in
+     modem inits 1 and 2 and enter the proper init for your modem
+     in init 3.
+
+     If you are desperate see if you can try a different com port
+     or different modem. Sometimes an incompatibility between the
+     modem  you use and the one your ISP uses will cause  similar
+     problems. If you are considering buying a new modem be  wary
+     of cheap no-name brands. Most complaints like this come from
+     people using modems I've never heard of. I almost never  get
+     complaints from USR users.
+
+     You might also have an interrupt conflict between your modem
+     and  another  device in your PC. Be sure that  sound  cards,
+     mice,  and  other hardware don't use the same  interrupt  as
+     your  modem. Try disabling all sound drivers in  your  setup
+     (config.sys  and  autoexec.bat)  and  disabling  the   sound
+     drivers in the game and see if it helps. Try removing CD-ROM
+     drivers, if possible.
+
+     A  lot  of  complaints come from people using the  DOS  that
+     comes  with Win95. If you are using this version of DOS  try
+     getting a DOS 6.22 boot disk and see if that will help.
+
+     Kali can work properly with the proper setup. There are many
+     thousands of happy users from all over the world using  Kali
+     without these problems. In a few cases I've never been  able
+     to  fix  the  problem completely, but even  then  it's  been
+     possible  to reduce the occurrence of lockups to  the  point
+     that some games were still enjoyable.
+
+     Kali  puts a load on your modem that is quite different from
+     most  applications. When you play a game  Kali  sends  *and*
+     receives  data  at full speed constantly. Most  applications
+     only  receive  data  at  full speed. Usually  these  lockups
+     occurs  because  the communication between the  PC  and  the
+     modem  breaks  down  and the PC gets stuck  trying  to  send
+     packets.
+
+
+Q:   How can I get more conventional memory?
+
+A:   Use  a memory manager such as DOS's emm386 or QEMM. Load DOS
+     high and load Kali high (lh Kali). Add the "noems" option to
+     the emm386 or QEMM line in config.sys. You might be able  to
+     get  Kali  into an upper memory block on some systems.  Read
+     your DOS manual or type "help emm386" at the DOS prompt.  If
+     use  have  a CDROM, try to avoid loading all of its drivers.
+     Using   DOS   6.0   and  above  you  can   create   multiple
+     configurations in your config.sys. Again, read the DOCS. Try
+     adding  "lh  "  in  front of lsl, ppp,  and  ipstub  in  the
+     load.bat file.
+
+     Most games that use their own memory manager (like Doom  and
+     Descent) will still work when used with emm386 or QEMM. They
+     also  still need at least some minimal conventional  memory.
+     Both  Doom  and  Descent will have fits if the  conventional
+     memory is below 350K (approx.).
+
+Q:   Why do my games run so slow?
+
+A:   Depends. All games will run fast if your connection is  fast
+     enough and your PC is fast enough (with enough memory). Even
+     a 28.8 modem and a P5-166 won't run Doom fast enough in most
+     cases because of the specific game design, but a 486-33 with
+     a 14.4 modem might play a good game of Descent (one-on-one).
+
+     Tips for improving speed:
+
+     1.   Faster  modem. Upgrading from a 14.4 to  a  28.8  modem
+          makes a world of difference in almost all cases. Do not
+          use  anything slower than 14.4.  A 16550 uart will also
+          help  quite  a bit.  Run find_com to see what  type  of
+          uart  you have (16650 is faster, 16450 is slower,  8250
+          is junk).
+     2.   Faster PC. Kali has some processing overhead that might
+          require   more  CPU.  Running  a  Pentium   is   highly
+          recommended.
+     3.   More  memory. Most games will run too slow with only  4
+          megs of RAM. 8 megs is recommended.
+     4.   Pick a different game. Duke Nukem runs much faster than
+          Doom,  and  Warcraft runs much faster  than  Command  &
+          Conquer. The original Descent normally runs faster than
+          Descent 2 because Descent 2 is more complicated.
+     5.   When  hosting  a  game of Descent 2 select  the  "Short
+          Packets" option and lower the packets-per-second  to  5
+          or  6.  This might make the other ships jump  a  little
+          more on the screen, but this will reduce the lag.
+     6.   When  hosting  a  game  of Warcraft2  be  sure  to  use
+          war2kali   (see   http://www.blizzard.com   for    more
+          information).
+     7.   When  playing Doom use the kalidoom patch. You can  get
+          this from ftp://ftp.kali.net/pub/kali/kalidoom.zip
+
+Q:   Why  don't  I get the list of games or servers or  sometimes
+     get an incomplete list?
+
+A:   You  are losing packets. The Internet isn't very dependable.
+     Messages are dropped all the time. Kali does not keep trying
+     to  get  the list until it succeeds. You just need  to  keep
+     trying to retrieve the list.
+
+Q:   Kali95 reports a duplicate or invalid serial number. Why?
+
+A:   You  may  have  entered  the serial  number  or  skey  value
+     incorrectly.  Please check both numbers  carefully.  We  get
+     about 10 messages every day from users who claim the numbers
+     we  sent  will not work. They insist that they have  checked
+     and  re-checked these numbers, and when they  show  us  what
+     they  entered  it  always turns out to be  a  typo.  Always.
+     Please  check  carefully. Both numbers are  12  digits.  The
+     letter O (capital o) is not used. If it looks like this,  0,
+     then  it's a zero. The letter l (lower case L) is not  used.
+     If it looks like this, 1, then it's a one.
+
+     If  the  problem goes away after a couple of  minutes  don't
+     worry. This is normal. The server is confused.
+
+Q:   People  in  Descent  appear to be doing  impossible  things!
+     Going  through walls. Jumping around. I can't even  seem  to
+     hit them and yet they hit me all the time! What causes this?
+
+A:   Either  lag,  packet loss, or cheating. Actual  cheating  is
+     quite  rare, but possible. If this happens all the  time  to
+     lots of different people then I suspect that you either have
+     a  packet loss or lag problem. If you fly around in circles,
+     do people tend to shoot in the right direction to hit you or
+     do they tend to aim behind you? If behind, then your packets
+     are  taking too long to go from user to user and  both  your
+     and  the  other player's shots are missing the target.  When
+     you  fire  at  someone, if you never hear  the  damage  then
+     you're  suffering from packet loss. A slow  connection  will
+     cause either of these effects.
+
+Q:   When  I  type  "load"  the PC hangs or doesn't  display  the
+     connect option. What did I do wrong?
+
+A:   Run  the  find_com  program that  came  with  Kalidos.  This
+     program should list your com ports. Do you see the com  port
+     your  modem is on? If not, or it reports an error, then your
+     modem  is  probably  not configured to  work  from  DOS.  By
+     default  a  lot of modems are only installed  to  work  from
+     Windows.  In  Windows it might claim to be  on  com1,  com2,
+     com3,  or  com4,  but  this  is only  while  running  inside
+     Windows. From DOS it might not be visible at all.  Check the
+     modem's manual to see if there are any jumpers that must  be
+     set to allow your modem to work from DOS. Be sure to put  it
+     on  a com port that is not currently in use (use find_com to
+     see which ports are in use).
+
+Q:   I  entered my registration codes and Kali still stops  after
+     15 minutes. What's wrong?
+
+A:   Are  you  sure you entered those numbers correctly?  Do  you
+     still  see  the  registration message  when  unloading  Kali
+     (kali/u)? You might check with your Internet provider to see
+     if they have a time-out that needs set differently.
+
+
+Q:   I  entered the codes, but I still see a shareware screen. Do
+     I need to buy something else or get a different program?
+
+A:   You are probably seeing the Klos shareware message. The Klos
+     driver  is  separate from Kali. You do not need to  register
+     that  driver  for  use with Kali. If you want  to,  you  can
+     contact Klos, sales@klos.com, to buy the commercial version.
+     The  commercial  version will not run  Kali  any  faster  or
+     easier.  To get past that annoying screen either  press  Esc
+     while it's displayed or setup the PPP driver to use a script
+     (and then you can remove the pppmenu line from load.bat).
+
+
+Q:   Do I need kmech for the DOS version of NetMech?
+
+A:   No. That's only needed for the Win95 version of NetMech.
+
+
+Q:   Will Kali work with AOL, Prodigy, Pipeline, GNN, or WOW?
+
+A:   Maybe.  Each of those companies is working on getting  32bit
+     Winsock drivers for Kali95.  Check to see if a 32bit  driver
+     is available yet.
+
+Q:   This stupid document didn't help. What do I do now?
+
+A:   If  this list doesn't answer your question, please send your
+     question to the following address:
+
+     support@kali.net
+
+     ***NOTE*** You must include the following information for us
+     to  be  able  to  help. Without this information,  we  won't
+     answer most questions.
+
+     1.   What version of Kali are you using?
+     2.   What version of DOS are you using?
+     3.   What brand/model of modem and speed?
+     4.   A copy of kali.cfg
+     5.   A copy of wattcp.cfg
+     6.   A copy of net.cfg
+     7.   A  description of the problem and what steps  you  have
+          taken to try to resolve the problem. We want to know at
+          what  point in the instructions in kali.doc  you  can't
+          get  past. If you send us email stating that you cannot
+          connect to any servers  and don't tell us that you  can
+          ping  it successfully, we will just send you a copy  of
+          this  message.  Please  try to  read  the  instructions
+          first.
+
+
+                Chapter X: Playing Games on Kali
+
+When using Kali and connected to a server, your PC thinks that it
+is  connected  to  a large global IPX network.  Games  that  were
+written  to be played over local networks using the IPX  protocol
+will  now work over the Internet through Kali. You can start your
+game  just like a normal multiplayer game would start on a  local
+IPX network. We suggest reading the game's manual for details and
+options that might be available.  If the game that you are  dying
+to  play isn't listed below, sorry man.  There are SO many games,
+revisions, patches, and expansion sets that come out every *week*
+that  it  is hard to stay on top of it all!  Really, we  do  try,
+`cause  a  lot  of  this new stuff is cool.  But  we  do  have  a
+suggestion.  We often learn about other games from Kali users who
+post  mail on the Kali mailing list.  And you can too!  Just send
+email  to "Majordomo@kali.net" with the following command in  the
+body  of  your message:  subscribe kali <your name>  <your  email
+address>
+
+Now for the games.  Let's do this alphabetically, shall we?
+
+ATF:
+
+Ah,  a perk of using Kali for DOS is that you can play this game.
+You can't play this one in Kali95.  Now you need the ATF software
+and the ATF patch.  Get the patch, atf_114.exe, at EA's FTP or at
+ATF  Psycho Central at http://www.ao.net/~chuck/atf/atfsycho.htm.
+You  then  have to optimize the available memory in DOS to  allow
+ATF  to  run  with  Kali loaded.  You need to  free  up  490k  of
+conventional  memory.  You also need a fast  Internet  connection
+(28.8  or  better).   If you are having some lag  problems  while
+playing ATF, turn the graphics detail down.
+
+Before  starting up ATF, find out how many people  are  going  to
+play  in your game and who has the fastest computer.  The fastest
+computer will be the Host.  Also decide what Group ID everyone is
+going  to  use  (any number between 0 and 9).   Go  to  your  ATF
+directory  and type ATF.  Click on "Multi-player" on  the  silver
+Menu  bar at the top of the screen.  In the drop-down menu, click
+on "Network.".  Type in your callsign (nickname).  Set the number
+of  players  and  the Group ID.  Now, the host clicks  on  "Call"
+button  and everyone else clicks on "Answer" button.  If you  get
+connected  all right, you will see "Successful Connection".   One
+more  thing - don't use the Network Address book for Kali gaming.
+It's only for true IPX play.
+
+
+Big Red Racing:
+
+First try to find a few people who might like to play.  You  need
+to know ahead of time how many players there will be.  Quit Kchat
+and type "racing" from your Big Red Racing directory.  Enter your
+name   (or   nickname),  if  the  game  asks  for   it.    Choose
+"Multiplayer".  Next screen:  Click on the smiley faces until you
+have the right number of players (including yourself!).  You  can
+have  up to 6 smiley, `er players!  Now click on "Network  Play".
+Set  all  your character choices and control options.   Wait  for
+other  players.  You need to see a car for each player  that  you
+are  expecting to play with, before you continue.  If you  see  a
+lot  of  unrecognizable names here, then your  game  is  probably
+getting mixed up with someone else's game.  If you can't seem  to
+get  a game with your buddies going, move to another server where
+no  one else is playing Big Red.    Next in the setup, You get  a
+chance  to  pick the type of race you want and then,  at  another
+screen, you pick the type of vehicle you want.  Soon you'll be at
+the Starting Line!
+
+If  you  have  problems with the game suddenly crashing  on  you,
+there may be a disparity of speeds between your computer and  the
+other player(s) computer(s).  I think the error message you might
+get  is  something like "Net Version Mismatch".  If, for example,
+I'm  playing BRR on a 486DX and you are playing against me  on  a
+Pentium 120, then BRR might crash because of the speed difference
+between  our  computers.  The disparity  in  the  speeds  of  our
+Internet  connections can cause this problem too.  BUT there  are
+some  parameters  in BRR that you can play with  that  might  fix
+this.   These  parameters are stored in the config file  that  is
+created and loaded when you type in your name or nick at the very
+beginning of the setup of BRR.  Type:
+
+EDIT CAROLE(or whatever YOUR name is).cfg
+
+Look  through  this file for the word "netspeed"  followed  by  3
+numbers.   If you have the fast computer, increase the  first  of
+these  3  numbers.  If you have the slow computer, decrease  this
+number.   The  second  of these 3 numbers  can  be  increased  by
+everyone.   The third of these 3 numbers can be changed  to  help
+the   computer  that  is  the  slowest.   Increase  this  number.
+However, if your race car (boat, etc.) jerks or jumps around  too
+much, reduce this number.  You can read more about these netspeed
+parameters in the BRR readme file.
+
+
+Command & Conquer:
+
+First try to find a few people who might want to play.  Now, quit
+Kchat  and  run C&C. Select Multiplayer Game, Network,  and  then
+either join or start a new game. C&C users will find it easier to
+start  a  game if no other C&C games are in progress or  forming.
+Find a server where no other C&C games are running.
+Cyberstorm:
+
+As  far  as  we  know, Cyberstorm can only be  played  in  Win95.
+Sorry.
+
+
+Descent 1:
+
+When you are playing a game like Descent which can be entered  at
+any  time,  just connect to a server, launch Descent, and  select
+the  Multiplayer  option.  When  starting  Descent  1,  type   "-
+DynamicSockets" beside the file name as a command-line  argument.
+This  allows  you  to choose from more games because  it  assigns
+multiple  socket numbers to the games.  Choose which  socket  you
+will  play  on by going to "Join Multi".  PageUp and PageDown  to
+scroll  through  the sockets.  Now go back and start  or  join  a
+game.  Note  that since we are on the Internet you might  have  a
+little trouble joining games since just one packet being lost  or
+out  of  order will cause the join to fail.    Just try again  or
+try a different game.  If you get into a game and you notice that
+you  are  constantly  missing your targets,  then  you  might  be
+experiencing game lag or packet loss.  This is especially true if
+you  never hear the impact of your exploding shots.  This  is  an
+indication  of a slow connection.  It might improve as  the  game
+goes on or you might need to quit and join a different game.
+
+
+Descent 2:
+
+When you are playing a game like Descent which can be entered  at
+any  time,  just connect to a server, launch Descent, and  select
+the   Multiplayer  option.  When  starting  Descent   2,   select
+"Multiplayer", then select "Start an IPX multiplayer game",  then
+select  1 of the 3 missions.  At the next screen, click on  "More
+options".  Change the "Packets per second" to 5 or 6 and click on
+"Short  packets".  NOW you are set to play.  These options should
+improve the speed of your game. Now go back and start or  join  a
+game.  Note  that since we are on the Internet you might  have  a
+little trouble joining games since just one packet being lost  or
+out  of  order will cause the join to fail.    Just try again  or
+try a different game.  If you get into a game and you notice that
+you  are  constantly  missing your targets,  then  you  might  be
+experiencing game lag or packet loss.  This is especially true if
+you  never hear the impact of your exploding shots.  This  is  an
+indication  of a slow connection.  It might improve as  the  game
+goes on or you might need to quit and join a different game.
+
+Doom:
+
+Be  sure  everyone has the exact same version of  the  EXE  file.
+Get kalidoom from:
+
+     ftp://ftp.kali.net/pub/kali/kalidoom.zip.
+
+For two players, type "ipxsetup -deathmatch -nomonsters -ticdup 2
+-extratics 2".  For three players, add "-nodes 3" to the  command
+line.
+
+
+DukeNukem3D:
+
+Getting Kali to work with DukeNukem can be frustrating sometimes,
+to  say  the  least.  It can work, but because  of  a  number  of
+variables it's just hard to get everything working at once.
+
+1.   You  *must* have a ping to the other player of under  600ms.
+     Type   "/ping  nickname"  in  chat  to  see  your  ping   to
+     "nickname". Lower pings will help quite a lot.
+
+2.   You  must both use the same version of Duke Nukem.  Use  the
+     1.3d version.
+
+3.   This version of Kali is setup to run Duke3D version 1.3D  or
+     later  without  changes.  However if you  play  again  other
+     users  with different versions you might check to make  sure
+     theyhave  everything  setup properly. An  older  version  of
+     Kali95,  version 0.9e, had an advanced setting called  "Duke
+     Special Processing". In most cases you want this off. If you
+     have  any  trouble  try turning it on, but  make  sure  both
+     players  do  this. Please report which one works better  for
+     you.  In  older copies of DOS Kali you would add a  line  to
+     kali.cfg  that reads "nodukecode" to disable this  code.  We
+     mention this
+
+4.   To  actually start the game be sure to close Kchat first. At
+     the  DOS  prompt go to your Duke directory and  type  "setup
+     /f4".
+
+5.   Be  sure to disable the Music driver. You can still run  the
+     digital  sound effects, but the Music hurts the  performance
+     and distracts you while playing. :)
+
+6.   Select the Network Game option. Select the option to set the
+     number  of players.  Select the option to specify  a  socket
+     number. Be sure all players use the same socket number.
+
+7.   Select  the  option to start the game. The first  thing  you
+     will  see  is  a  bunch of dots until  it  finds  the  other
+     player(s).  Do not press any keys at this point  or  at  any
+     other  point  (unless the game tells you  otherwise)  in  an
+     attempt to speed up the loading process.
+
+8.   If  the Duke Nukem Main Menu comes up, select the option  to
+     start  a  game.  One  player will get  to  select  the  game
+     settings  (the player with the lowest IP#). Once  you  press
+     the  key to start the game do NOT press any other keys until
+     the game begins (Even if you feel like you have been staring
+     at  the  "Entering Hollywood Holocaust" screen for a zillion
+     years). Pressing a key will always cause it to mess up.
+
+9.   Once  the  game starts, give it a few seconds to  make  sure
+     it's really started and then run around and kill people. :)
+
+10.  Do not modify ANY Duke Nukem files. Any modifications to the
+     original files as distributed by Apogee/3D Realms will cause
+     the game to fail.
+
+
+Fire Fight:
+
+As  far  as  we  know, Fire Fight can only be  played  in  Win95.
+Sorry.
+
+
+Heretic & Hexen:
+
+These games can be quite slow on anything less than a T1 Internet
+connection.  Just warnin' ya!  See the instructions for Doom.
+
+
+Nascar:
+
+Before you begin, make sure you have the following setup:
+
+1.   Get the most recent version of Kali for DOS and install it.
+2.   Make sure you have a full version of Nascar.
+3.    Get  the Nascar patch version 1.21.  Install this  in  your
+  Nascar directory.
+4.   Get the Hawaii patch and install it in your Nascar
+directory.  It's located at
+ftp://ftp.sierra.com/pub/sierra/papyrus/
+
+Now,  you  can  load Kali and connect to a server.   Go  to  your
+Nascar directory and type:
+    multi -n
+If you want high resolution graphics, type:
+    multi -n -h
+Now,  choose Multiplayer and Direct Connect.  Set up  com  ports,
+etc.  The host will need to type in a net user ID (nick) and then
+select  Answer.   The other players will choose  Dial  and  leave
+their net user ID blank.  This should connect you!  Now read  the
+racing etiquette in the hawaii.doc file for GOOD, CLEAN FUN!
+
+NetMech (DOS):
+
+Activision  has a DOS version that works, as is, over  Kali.   If
+you  heard  that  you  need the kmech or  kalidp  files  to  play
+NetMech,  it  is not true.  These files are Kali-NetMech  patches
+that work *only* for the Win95 version of Mech Warrior 2.
+They will not work for the DOS version.
+
+To  start playing NetMech, first find some people to play against
+in Kchat.  Quit Kchat, then go to your NetMech directory and type
+"netmech".    After  the  prologue,  choose  IPX  under   "Select
+Connection  Type".  Next you will be at a screen  where  you  can
+form  a game (choose "Host").  Or if you are new at this, join  a
+game  that someone else is forming.  Highlight the game that  you
+would  like  to  join under "Rooms" and click the "Join"  button.
+Next  you will go to a screen where you can pick the "Mech"  that
+you  want to use.  Then you click on the button "Dropship".   Now
+your  name  should  appear in a list on  a  new  screen  entitled
+"Dropship".   Click on the "Launch" button in the middle  of  the
+screen to signal to the other players that you are ready to play.
+The  box  to the left of your name should then turn green.   Once
+everyone's box is green, the game can be started by the host.  Be
+patient,  because sometimes it takes a moment  for  the  host  to
+receive  the  message that everyone is clicked in  and  ready  to
+play.
+
+
+One Must Fall:
+
+This  game can be quite slow on anything less than a T1  Internet
+connection.  Just warnin' ya!
+
+
+Quake:
+
+The  older  DOS releases of Kali will NOT work with  Quake.   The
+problem is that Quake uses an IPX packet that's over 1000  bytes.
+Too  big  for  the older Kali, but something we fixed  in  Kali95
+version 0.9g and DOS Kali version 1.2w.
+
+Get ftp://kali.net/pub/kali/kali12w.exe
+
+ALL PLAYERS MUST USE THE NEWER VERSIONS!!!!
+
+To  use  Quake with Kali make sure someone with a fast connection
+(T1  or  ISDN is preferred and recommended) act as the server  by
+select  the MULTIPLAYER menu option and then selecting the option
+to  START A MULTIPLAYER GAME...  That person then gets to  select
+the  game settings and then select the option to BEGIN GAME.  The
+other  players also select the MULTIPLAYER menu option, but  then
+select  the SEARCH FOR LOCAL NETWORK GAMES option.  If a game  is
+being served you can select that game and press enter to join.
+
+So far it still looks like Quake is pretty slow over Kali. Sorry.
+
+Terminal Velocity:
+
+TV  (Terminal Velocity) was written by Apogee, so the  set-up  is
+going  to  look  a lot like Duke Nukem's set-up.  To  launch  TV:
+1.Quit  Kchat  and  go to your Duke directory.   2.Type  "setup".
+3.Choose  COMM setup.  4.Change socket number to 288b or whatever
+you  and your playmates agreed upon in advance.  5.Go back to the
+Main  Menu.   6.Choose  Network game.   7.Change  the  number  of
+players to the number of people, including yourself, who will  be
+playing (duh!).  8.Launch TV.  9.Kick airborne butt!
+
+
+Top Gun:
+
+There  is a setting in the topgun.ini file that will need  to  be
+adjusted.   Look  at the "Netdatarate" parameter and  adjust  the
+bandwidth according to this formula:
+
+     netdatarate  = (.7 * number_of_players * slowest_modem_rate)
+               / (number_of_players - 1)
+
+The  slowest_modem_rate is the baud of the slowest modem  of  the
+players in your game.
+
+
+VR Pool:
+
+Make  sure  that  you  and  the other players  are  on  the  same
+wavelength when it comes to setting all the game settings -  like
+what  game (8-ball, etc.), how many matches, etc. Make  sure  you
+and  the  other players have the same version of VR Pool (The  VR
+Pool demo will not work over Kali).  You also need to decide  who
+will  transmit  and who will receive.  Now go  to  your  VR  Pool
+directory  and type: pool.  This will bring you to the Quickstart
+Screen.  Type p for "Play Pool!".
+
+The  transmitter  (sender) must select Game  &  Scoring  Options.
+Then  he/she  must  select Network or Modem  Player.   Click  OK.
+Choose Transmit.  The balls will rack up and you shoot first.
+
+The  receiver  selects  Network or Modem Player  and  clicks  OK.
+Choose   Receive.    Now  wait,  because   your   opponent   (the
+transmitter)   gets to go first.  To talk to each  other  in  the
+game,  type  Alt+c before typing your message.  As with  all  the
+other  games, the faster your Internet connection is, the  better
+the  game  is and the smaller your chance is of having  the  game
+drop you or lockup.
+
+WarCraft2:
+
+Quit  Kchat  and  run  War2 by going to your War2  directory  and
+typing  "war2  pkt:8". Make sure that everyone in  your  game  is
+going to use this command to launch Warcraft.  Select the options
+for  multiplayer IPX games and either join or host a  game.  Once
+you  have  clicked on the "Join" button and are in  the  list  of
+players,  click  on the box to the left of your name.   This  "X"
+signals  to the host that you are ready to play!  If the game  is
+excruciatingly  slow, try playing against others who  have  lower
+pings  and  limit the size of your game to 3 or less  people.   A
+word  about  the  file  called "war2kali.exe":   Don't  use  this
+program unless everyone in your game is using it and ALL  of  you
+have  very fast Internet connections (ISDN, T1, or better!).   If
+you  use  it  and  you don't meet this criteria, something  AWful
+might happen - like your game might play a little slower.
+
+You ever notice how some nicks in the startup screens of War2 are
+multicolored?   You can make your name colorful by  editing  your
+war2.ini file in your War2 directory.  Use a text editor to  look
+at this file.  At the DOS prompt, type:
+    edit war2.ini
+Look for the line that says:
+    name= (your nick)
+Put  the  cursor under the letter of your nick that you  want  to
+change.   Hit  Ctrl+p and it will ask you to put  in  a  command.
+Then type one of these combinations:
+
+    ctrl+c = red
+    ctrl+d = white
+    ctrl+e = gray
+    ctrl+f = black
+
+If  you  enter  the correct command, then a poker  symbol  should
+appear  before  the  letter.  Don't try to make  every  letter  a
+different  color,  because it will not work.  You  will  have  to
+space  out the colors in your name.  A long name will be able  to
+handle  3 or 4 different colors.  Don't try any other ctrl+letter
+combinations, because it will mess up the file.
+
+                       Chapter XI: Credits
+
+We  would  like  to  thank  all  of  the  people  who  have  made
+contributions to Kali. Without these people you probably wouldn't
+be playing Internet games at all.
+
+The following people and/or companies have contributed in one way
+or   another.   They  are  listed  in  chronological   order   of
+contribution. We may have made a mistake in the ordering  of  one
+or  two  but  hopefully we didn't leave anyone out.  If  we  did,
+*please* let us know and we will correct it.
+
+id Software - for writing Doom and providing the source code  for
+     ipxsetup. This is what got us into multiplayer gaming!
+Jake Page  (snake)  -  the author of tcpsetup. tcpsetup  was  the
+     first program to allow Internet Doom.
+Erick  Engelke  - the author of Waterloo TCP (wattcp). Wattcp  is
+     used in both iFrag and Kali.
+Scott  Coleman (Khan) - the author of iFrag and the original  IPX
+     code in Kali.
+Parallax  - for writing Descent...the program that inspired Kali.
+     I guess Interplay gets some credit here too. :)
+Frank  Fejes  (Warp2) & Todd Potter (PooterMan)- for  registering
+     the first two copies of Kali!
+Danny  Gasparovski - the author of SLiRP. He made several changes
+     to  his  program at our request. Without his  efforts  shell
+     users would be stuck with MILK ;-)
+Patrick  and  Michael Klos - the authors of pppshare (along  with
+     his  brother).  At our request they developed pppshare  just
+     for Kali users.
+Jonathon  Roy (roy7) - for porting the kali code to UNIX to  make
+     the  first Kali server. For providing consulting on  further
+     UNIX programming.
+Edward  Henigin  (Texas Net) - for running the first Kali  server
+     and the iFrag Tracker.
+Pramod  Gumpeni (ZenMaster) - the author of the Kali Game FAQ and
+     a beta tester. Our number one fan!
+Chung Lau (waver) - author of the netcom shell kit.
+Ethan Winkley - author of the PPP FAQ.
+Byron Followell - author of the Netcruiser FAQ.
+Derek Bumpas - author of snatch.
+Lawrence Reiss - author of the CompuServe FAQ.
+loopy - for cracking every version of Kali before anyone else and
+     letting us know just how bad our security was ;-)
+Axxis  Corporation - Mark Leslie, Mike Fine, Mike Maxwell,  Suzie
+     Peterson,  Marsha  Maxwell, Jennifer Dastrup,  David  Tyler,
+     Terri Maxwell, Michael Sanders, Wade Billings - for handling
+     credit card orders, running a server, and official Web site.
+Carole  Wheeler - author of the game section of this document and
+     loyal Kali employee.
+Brian Hayes - mostly Kali95 credits, but has helped find at least
+     one bug in DOS Kali.
+And  all  the  other people who have ftp sites, web  sites,  kali
+servers,  etc. Thanks for everyone who has helped test dozens  of
+versions  of  Kali.  Thanks for everyone who has  registered  and
+allowed us to continue to improve Kali.
+
+There are so many people who have contributed ideas that it would
+takes pages to list them all. Thanks to all!
+
+
+Kali  and the Kali server are (c) Copyright 1995, 1996 Kali, Inc.
+All Rights Reserved. Kali is a trademark of Kali, Inc.
+

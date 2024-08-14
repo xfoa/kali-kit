@@ -1,0 +1,29 @@
+KALI CHAT
+Written by Jay Cotton
+(c)Copyright 1995, 1996 Kali, Inc. - All Rights Reserved
+Kali is a trademark of Kali, Inc.
+Last revision: 3/14/96
+
+Description:
+KALI CHAT is an IRC-like chat program for IPX networks.  It was written 
+to help people using Kali (an IPX-TCP/IP tunneling program) communicate 
+before and after playing games.  It will work over a local IPX network
+or over a Kali Virtual SubNet.
+
+To run KALI CHAT, edit kchat.cfg and then just type:
+
+kchat 
+
+You will automatically start out on the #chat channel.  To see who else 
+is on this channel, type /who.  To see everyone using KALI CHAT, type /who *.
+To see a list if users on a specific channel, type /who #channelname.
+
+To join a channel, type /join #channelname.  To exit, type /quit.
+
+Using KALI CHAT with Kali.  First run Kali and connect to others PCs, then 
+run KALI CHAT as if you were on a local net.  After finding players for a
+game, exit KALI CHAT and directly launch your game.  No need to re-run Kali.
+
+While running KALI CHAT, type /help to get more commands.
+
+That's it!

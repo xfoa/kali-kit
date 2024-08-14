@@ -1,0 +1,52 @@
+Kali-Doom/Doom2/Heretic/Hexen Enhance Multiplayer Driver
+Version 0.9a beta
+4/26/96
+(c)Copyright 1996 Kali, Inc.
+All rights reserved.
+Contact support@kali.net for help.
+
+Use this driver instead of the default ipxsetup.exe driver to
+improve the performance of Doom over Kali. 
+
+OPTION #1
+---------  
+
+Copy kalidoom.exe to your idsoftware game directory and type 
+"kalidoom" to start a 2 player cooperative game on the default
+port.  
+
+The following options can be typed on the command line to change
+the game.  All players must use the same options!!!  There are 
+more options.  See the readme file for your specific game.
+
+-nodes X	Replace X with the number of players (1 to 4)
+-port X		Replace X with any number from 1 to 65535
+-deathmatch	Start in deathmatch mode instead of cooperative
+-skill X	X = the skill level in the game
+-nomonsters	Remove the monsters from the game.  Humans only.
+
+Adjusting speed:
+
+-t X		Replace X with a number from 1 to 5.  Higher numbers
+		are faster.  The default is 2.
+-e X		Replace X with a number from 0 to 5.  This determines
+		how much backup data is sent in each packet.  The 
+		default is 1.  This will add one extra frame of info
+		to each packet.  If one packet is lost the next packet
+		will automatically contain the missing data.  Higher
+		numbers include more info, but make the packets bigger.
+		If Doom tends to play quickly for awhile and then make
+		a long pause and then continue you should increase this
+		number.  Kali95 users on 28.8 will find "-e 5" useful.
+
+OPTION #2
+---------
+
+Rename the existing ipxsetup.exe driver to doomipx.exe.  Then copy the
+kalidoom.exe file to the game directory and rename it as ipxsetup.exe.
+Then use the setup.exe or dm.exe utilities like you normally would to
+select game options.  See the readme file from the game for details.
+You cannot set the -t or -e options using kalidoom this way yet.
+
+Good Luck!
+Jay
