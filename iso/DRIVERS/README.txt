@@ -1,7 +1,8 @@
 Drivers
 =======
 
-This is a collection of drivers used to get your network adapter working in DOS.
+This is a collection of drivers that can be used to get your network adapter
+working in DOS.
 
 PKTDRVRS
   Crynwr's collection of network adapter packet drivers.

@@ -20,6 +20,9 @@ Thanks
 * Ulrich Hansen and W.Spiegl for their guide to FreeDOS networking and ODI
   https://home.mnet-online.de/willybilly/
 
+* Josh Jackson for his DOSBox NE2000 (including his NET.CFG)
+  https://github.com/gammy/
+
 * Maraakate for hosting the versions of Kali used in this kit
   https://maraakate.org/
   https://maraakate.org/Kali/
