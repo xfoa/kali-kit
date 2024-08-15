@@ -2,6 +2,10 @@
 
 set -eu
 
+source lib/helpers.sh
+readonly DEPS=(xorriso)
+check_deps DEPS
+
 readonly ISO_FILE='kali-kit.iso'
 
 mkdir -p "build"

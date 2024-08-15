@@ -1,6 +1,10 @@
 #!/bin/bash
 set -eu
 
+source lib/helpers.sh
+readonly DEPS=(xorriso unix2dos)
+check_deps DEPS
+
 readonly HTML_DOCS_DIR='build/html_docs'
 readonly TXT_DOCS_DIR='src/iso/DOCS'
 
