@@ -30,7 +30,7 @@ Network adapter packet drivers were written by Russell Nelson, and the sources f
 
 ## License
 
-The code in this repository, with the exception of files in `src/iso`, are copyright [foax](https://fo.ax) and are distributed under the GPLv3 license.
-Some content in this repository are copyrighted and distrubted without permission from their owners.
+The contents of this repository, with the exception of files in `src/iso`, are &copy; copyright [foax](https://fo.ax) (unless otherwise stated) and are distributed under the GPLv3 license.
+Some content in this repository is copyrighted, and is distrubted without the permission of its authors.
 Such content is distributed under fair use for educational purposes.
-If you are the copyright holder and would like your work removed, please contact me and I'll do so.
+If you are the copyright holder and would like your work removed, please contact me and I will do so.
