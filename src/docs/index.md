@@ -2,8 +2,8 @@
 title: foax's Kali Kit Documentation
 ---
 
-Here are some guides on how to set up Kali in various DOS environments, invluding on real and virtualised hardware.
-If you would like to update or add to these docs, please feel free to [contact me](https://fo.ax).
+Here are some guides on how to set up Kali in various DOS environments, including on real and virtualised hardware.
+If you would like to update or add to these docs, please do so on the project's [GitHub repo](https://github.com/xfoa/kali-kit).
 
 # Contents
 
