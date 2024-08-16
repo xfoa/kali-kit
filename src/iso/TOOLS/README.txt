@@ -2,7 +2,7 @@ Tools
 =====
 
 NICSCAN
-  Nicscan utility to scan for PCI network cards in DOS.
+  Nicscan utility to scan for PCI network cards in MS-DOS.
 
 mTCP
   Collection of TCP/IP utilities using the mTCP stack. Useful for testing

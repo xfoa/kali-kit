@@ -5,7 +5,7 @@ Here are a few versions of Kali.
 
 DOS\KALI_14A
   Kali v1.4a
-  The latest version that ran in DOS. Use this version if you have a
+  The latest version that ran in MS-DOS. Use this version if you have a
   registration key for DOS Kali. Unfortunately, registration keys for Kali II
   and Kali 95 won't work for the DOS version, and there doesn't appear to be a
   license key generator online. If you're using a registration key you've found

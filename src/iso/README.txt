@@ -1,7 +1,17 @@
 foax's Kali Kit
 ===============
 
-Hi! 
+This repo contains a collection of tools and drivers to get Kali
+[https://kali.net] running on an MS-DOS PC, and guides on how to set it up on
+real and emulated hardware. Kali is a program that tunnels IPX network traffic
+over TCP/IP, allowing old games and applications that use IPX to connect over
+networks that only support TCP/IP, including the internet.
+
+The config files and guides included here assume a Novell NE1000 network
+adapter, but packet drivers are included for a large variety of NICs. 
+
+The latest version of this kit and the most up-to-date documentation can be
+found at https://fo.ax/kali-kit. Happy networking! 
 
 
 Thanks
@@ -24,7 +34,6 @@ Thanks
   https://github.com/gammy/
 
 * Maraakate for hosting the versions of Kali used in this kit
-  https://maraakate.org/
   https://maraakate.org/Kali/
 
 * Scott Coleman, Alex Markovich, and Jay Cotton of course for creating Kali!
