@@ -1,16 +1,18 @@
 # foax's Kali Kit
 
-Useful stuff to get Kali IPX tunneling running on a DOS PC.
-The config and guide assume a Novell NE1000 network adapter, but packet drivers are included for a large variety of NICs.
+This repo contains a collection of tools and drivers to get [Kali](https://kali.net) running on a DOS PC, and guides on how to set it up on real and emulated hardware.
+Kali is a program that tunnels IPX network traffic over TCP/IP, allowing old games and applications that use IPX to connect over networks that only support TCP/IP, including the internet.
+
+The programs and drivers collected here can be used directly from the `src/iso` directory, but the easiest way to get them onto a DOS machine with a CD-ROM drive is to create an ISO file using the included scripts.
+This can either be used with an emulator directly, or burned onto a CD to use with real hardware.
+The config files and guides included assume a Novell NE1000 network adapter, but packet drivers are included for a large variety of NICs.
 
 ## Building the ISO
 
-Everything here can be used directly, but the easiest way to get this all onto a DOS machine is to create and ISO either to use with an emulator or burn to a CD for use on real hardware.
-There is a build script included to do this, but it has only been tested on Linux.
-The script requires the `xorriso` program to run.
-This can be installed either via your package manager of choice, or obtained from [GNU](https://www.gnu.org/software/xorriso/).
+The ISO can be built using a script included in this repo, but it has only been tested on Linux.
+The ISO build script requires [xorriso](https://www.gnu.org/software/xorriso/), which most should be available in most Linux distros.
 
-To build the ISO:
+To build the ISO, run:
 
 ```
 ./make-iso.sh
@@ -18,19 +20,25 @@ To build the ISO:
 
 This will output the iso in the `build` directory.
 
-To build the docs:
+## Building the documentation
+
+An up-to-date version of the docs can be found [online](https://fo.ax/kali-kit/).
+Optionally, you can build them from the Markdown sources included in this repo.
+The docs build script requires [Pandoc](https://pandoc.org/) and [dos2unix](https://dos2unix.sourceforge.io/), which should be available in most Linux distros.
+
+To build the docs, run:
 
 ```
 ./make-docs.sh
 ```
 
-This will output an HTML version of the docs to `build/html_docs`, and a DOS-readable TXT version of the docs to `src/iso/DOCS` which will included in the ISO when it's built.
-
-Network adapter packet drivers were written by Russell Nelson, and the sources for them can be found on [his site](http://crynwr.com/drivers/00index.html).
+This will output a stand-alone HTML version of the docs to `build/html_docs`, and a DOS-readable TXT version of the docs to `src/iso/DOCS` which will included in the ISO when it's built.
 
 ## License
 
-The contents of this repository, with the exception of files in `src/iso`, are &copy; copyright [foax](https://fo.ax) (unless otherwise stated) and are distributed under the GPLv3 license.
-Some content in this repository is copyrighted, and is distrubted without the permission of its authors.
-Such content is distributed under fair use for educational purposes.
-If you are the copyright holder and would like your work removed, please contact me and I will do so.
+The contents of this repository, with the exception of programs and drivers in `src/iso`, are &copy; [foax](https://fo.ax) unless otherwise stated, and are distributed under the GPLv3 license.
+Some drivers and applications included in this repository have been distrubted without the permission of their authors.
+Such content is distributed under fair use for educational purposes, on the assumption that they are no longer commercially relevant.
+If you are the copyright holder for any of these and would like your work removed from this repo, please [contact me](mailto:a@fo.ax) and I will do so.
+
+The collection of network adapter packet drivers included in this repo were written by Russell Nelson, and the sources for these can be found on [his site](http://crynwr.com/drivers/00index.html).
