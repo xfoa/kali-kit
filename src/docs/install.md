@@ -1,8 +1,17 @@
 ---
-title: foax's Kali Kit Documentation - Install
----
+title: Installing network drivers and Kali on MS-DOS
+author: '[foax](mailto:a@fo.ax)'
+---s
 
-# Installing network drivers and Kali on MS-DOS
+# Installing Kali on MS-DOS
+
+## Network drivers
+
+### Packet drivers or ODI?
+
+### NET.CFG
+
+## Kali
 
 # Installing Kali II on Windows
 
@@ -13,3 +22,4 @@ It does not support Windows 3.1.
 
 Installing Kali II in Windows is simple.
 
+# References

@@ -131,7 +131,7 @@ $if(subtitle)$
 $endif$
 $-----------------------------------------------------------------------> author
 $for(author)$
-<p class="author">$author$</p>
+<p class="author">Written by $author$</p>
 $endfor$
 $-------------------------------------------------------------------------> date
 $if(date)$
