@@ -22,7 +22,7 @@ This will output the iso in the `build` directory.
 
 ## Building the documentation
 
-An up-to-date version of the docs can be found [online](https://fo.ax/kali-kit/).
+An up-to-date version of the docs can be found [online](https://fo.ax/kali-kit/html_docs).
 Optionally, you can build them from the Markdown sources included in this repo.
 The docs build script requires [Pandoc](https://pandoc.org/) and [dos2unix](https://dos2unix.sourceforge.io/), which should be available in most Linux distros.
 
