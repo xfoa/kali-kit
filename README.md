@@ -7,6 +7,9 @@ The programs and drivers collected here can be used directly from the `src/iso` 
 This can either be used with an emulator directly, or burned onto a CD to use with real hardware.
 The config files and guides included here assume a Novell NE1000 network adapter, but packet drivers are included for a large variety of NICs.
 
+If you are using an emulator like [86Box](https://86box.net/) or [QEMU](https://www.qemu.org/) on Linux, there are some scripts provided to help set up the host side of networking with [VDE](https://github.com/virtualsquare/vde-2) in the `bin` directory.
+A guide for this is also available in the [Networking using 86Box and VDE in Linux](https://fo.ax/kali-kit/html_docs/86box.html) section of the docs.
+
 ## Building the ISO
 
 The ISO can be built using a script included in this repo, but it has only been tested on Linux.
