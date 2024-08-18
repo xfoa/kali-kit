@@ -17,6 +17,12 @@ ODI
     * ODIPKT, a shim to expose ODI on a packet driver interface
     * IPXODI, an ODI driver for the IPX protocol
 
+NETSTART.BAT
+  An example Batch file to start network drivers. It's initially set up to use a
+  Novell NE1000 network adapter with PD. For other network adapters, modify it
+  to load the appropriate driver. If you want to use ODI instead of PD, an
+  example exists in the comments of this file.
+
 Notes
 -----
 

@@ -1,7 +1,8 @@
 # foax's Kali Kit
 
-This repo contains a collection of tools and drivers to get [Kali](https://kali.net) running on an MS-DOS PC, and guides on how to set it up on real and emulated hardware.
 Kali is a program that tunnels IPX network traffic over TCP/IP, allowing old games and applications that use IPX to connect over networks that only support TCP/IP, including the internet.
+This repo contains a collection of tools and drivers to get [Kali](https://kali.net) running on an MS-DOS PC, and guides on how to set it up on real and emulated hardware.
+It's what I wished I had when I first set up Kali in 86Box!
 
 The programs and drivers collected here can be used directly from the `src/iso` directory, but the easiest way to get them onto a DOS machine with a CD-ROM drive is to create an ISO file using the included scripts.
 This can either be used with an emulator directly, or burned onto a CD to use with real hardware.
@@ -37,7 +38,7 @@ To build the docs, run:
 
 This will output a stand-alone HTML version of the docs to `build/html_docs`, and a DOS-readable TXT version of the docs to `src/iso/DOCS` which will included in the ISO when it's built.
 
-## Building everything (quick start)
+## Building everything
 
 ```
 ./make-all.sh

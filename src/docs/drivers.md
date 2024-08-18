@@ -62,14 +62,19 @@ The IPX part is the network level protocol (similar to IP), and the SPX part is 
 IPX was far more popular than TCP/IP in DOS local area networks, so most DOS games use IPX.
 Interestingly, Doom and many other games only use the IPX part, with their own protocol in place of SPX (similar to how UDP is used today).
 
-The IPX drivers for PD and ODI are TSRs that remain in memory.
+::: Note
+The included IPX drivers for PD and ODI are TSRs that remain in memory.
+:::
 
 # TCP/IP
 
 Few applications and games in DOS use TCP/IP.
 Kali is one of them, of course.
-TCP/IP drivers were generally not loaded as TSRs themselves, but rather compiled in to applications as libraries.
+
+::: Note
+TCP/IP drivers are generally not loaded as TSRs themselves, but rather compiled in to applications as libraries.
 This is due to their complexity and therefore size -- only including required functions keeps memory usage lower.
+:::
 
 Two TCP/IP stacks that work like this are mTCP, and Watt-32 -- the latter of which is used in Kali.
 mTCP is included in this kit for testing/debugging purposes.
