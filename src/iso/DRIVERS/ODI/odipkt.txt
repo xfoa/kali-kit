@@ -1,0 +1,31 @@
+A new version (2.0) of ODIPKT is now available for anonymous ftp from
+hsdndev.harvard.edu.  This version incorporates significant changes
+relating to dynamic buffer allocation:  the static receive buffer is
+gone and both sends and receives use ECBs allocated from the LSL.
+
+The use of multiple receive buffers supports cards like the 3c503 (which
+has been seen to queue as many as 5 receive ECBs before completing any of
+them).  The need for dynamic send buffers is caused by the requirement
+that a send routine not spin waiting for completion.  Previous versions
+of ODIPKT spun while the ECB status field was > 0 (a condition that was
+originally documented to mean ``pending'').  As it turned out, most
+drivers never set the ECB status > 0, so the send code returned to
+the packet driver application before the send buffer was actually free
+for reuse.  This bug masked the deeper problem of deadlock.  Now each
+send is copied into a dynamic ECB before control is returned to the
+application.
+
+The main consequence of the new buffer scheme is that you MUST allocate
+a number of correctly-sized buffers in NET.CFG:
+
+Link Support
+	Buffers 6 1600
+
+seems about right for Ethernet.  (Don't try setting the size to 1514;
+there is overhead beyond the data.)
+
+Because regression testing was getting out of hand, I removed a number
+of options from ODIPKT 2.0.  Native class 8 operation and ``old'' ODI
+(PhoneNET Talk for versions < 3.0) are gone.  Stack switching is now
+always enabled.  For users requiring these options, ODIPKT13 will
+remain available.

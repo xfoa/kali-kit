@@ -1,7 +1,7 @@
 ---
 title: Installing network drivers and Kali on MS-DOS
 author: '[foax](mailto:a@fo.ax)'
----s
+---
 
 # Installing Kali on MS-DOS
 
