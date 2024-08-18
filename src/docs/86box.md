@@ -14,7 +14,7 @@ author: '[foax](mailto:a@fo.ax)'
 
 # Installing Kali
 
-[#]: <> (see separate doc)
+[#]: <> (see install.md)
 
 # VDE
 
