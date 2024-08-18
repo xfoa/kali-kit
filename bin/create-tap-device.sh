@@ -14,7 +14,7 @@ check_deps DEPS
 # Run this as root
 if [ $UID != "0" ]
 then
-echo "Run this script as root"
+echo "Run this script as root" >&2
 exit 1
 fi
 

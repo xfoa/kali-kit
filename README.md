@@ -46,6 +46,11 @@ This will output a stand-alone HTML version of the docs to `build/html_docs`, an
 
 All it does it run the previous two scripts. 😉
 
+## VDE networking scripts
+
+In the `bin` directory there are some useful scripts to create a VDE switch with an atteched TAP device to use with PC emulators such as [86Box](https://86box.net/) and [QEMU](https://www.qemu.org/).
+Or, if you'd like to use a set of default parameters for this, run the `start-emulator-network.sh` script at the root of this repo.
+
 ## License
 
 The contents of this repository, with the exception of programs and drivers in `src/iso`, are &copy; [foax](https://fo.ax) unless otherwise stated, and are distributed under the GPLv3 license.

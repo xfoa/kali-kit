@@ -10,13 +10,13 @@ check_deps DEPS
 # Run this as root
 if [ $UID != "0" ]
 then
-echo "Run this script as root"
+echo "Run this script as root" >&2
 exit 1
 fi
 
 show_usage() {
 	cat << EOF >&2
-$(basename "$0") [--help|-h] TAP_DEVICE GATEWAY_INTERFACE
+$(basename "$0") [--help|-h] TAP_DEVICE
 Route traffic to the internet from a TAP device via another interface.
 
 	TAP_DEVICE		Interface name of the TAP device to connect to VDE.
@@ -51,7 +51,7 @@ readonly DEFAULT_GW="$(ip route | grep default | tr -s ' ' | cut -d ' ' -f 3)"
 readonly MASQ_IP="$(ip a show dev wlp0s20f3 | grep inet | grep -v inet6 | tr -s ' ' | cut -d' ' -f 3 | cut -d '/' -f1)"
 
 # Make sure TAP exists
-ip link show "$TAP_DEVICE" > /dev/null
+ip link show "$TAPDEV" > /dev/null
 readonly TAP_FOUND="$?"
 if [[ ! $TAP_FOUND ]]
 then
