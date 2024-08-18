@@ -91,13 +91,13 @@ More can be found [here](https://www.shikadi.net/network/).
 
 # Further reading and resources
 
-1. [Packet Driver on Wikipedia](https://en.wikipedia.org/wiki/PC/TCP_Packet_Driver)
-2. [DOS Packet Driver Specification v1.11](http://sininenankka.dy.fi/leetos/network_calls.txt)
-3. [Indiana University IT Servcies knowledgebase article on ODI](https://kb.iu.edu/d/acbt)
-4. [Networking FreeDOS -- ODI driver installation](https://home.mnet-online.de/willybilly/fdhelp-dos/en/hhstndrd/network/odi_ins.htm)
-5. [Novell's ODI LAN driver specifications](https://www.novell.com/developer/ndk/odi_lan_driver_components.html)
-6. [IPX/SPX on Wikipedia](https://en.wikipedia.org/wiki/IPX/SPX)
-7. [mTCP](https://www.brutman.com/mTCP/)
-8. [Watt-32 TCP/IP](https://www.watt-32.net/)
+* [Packet Driver on Wikipedia](https://en.wikipedia.org/wiki/PC/TCP_Packet_Driver)
+* [DOS Packet Driver Specification v1.11](http://sininenankka.dy.fi/leetos/network_calls.txt)
+* [Indiana University IT Servcies knowledgebase article on ODI](https://kb.iu.edu/d/acbt)
+* [Networking FreeDOS -- ODI driver installation](https://home.mnet-online.de/willybilly/fdhelp-dos/en/hhstndrd/network/odi_ins.htm)
+* [Novell's ODI LAN driver specifications](https://www.novell.com/developer/ndk/odi_lan_driver_components.html)
+* [IPX/SPX on Wikipedia](https://en.wikipedia.org/wiki/IPX/SPX)
+* [mTCP](https://www.brutman.com/mTCP/)
+* [Watt-32 TCP/IP](https://www.watt-32.net/)
 
 If any of the above links no longer work, it's worth checking if they are archived on the [Wayback Machine](https://web.archive.org/).

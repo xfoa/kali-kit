@@ -19,7 +19,7 @@ The ISO build script requires [xorriso](https://www.gnu.org/software/xorriso/), 
 
 To build the ISO, run:
 
-```
+```bash
 ./make-iso.sh
 ```
 
@@ -33,13 +33,13 @@ The docs build script requires [Pandoc](https://pandoc.org/) and [dos2unix](http
 
 To build the docs, run:
 
-```
+```bash
 ./make-docs.sh
 ```
 
 ## Building everything
 
-```
+```bash
 ./make-all.sh
 ```
 
@@ -50,7 +50,10 @@ All it does it run the previous two scripts. 😉
 If you are using an emulator like [86Box](https://86box.net/) or [QEMU](https://www.qemu.org/) on Linux, there are some scripts provided in the `bin` directory to help set up the host side of networking with [VDE](https://github.com/virtualsquare/vde-2).
 A guide for this is also available in the [Networking using 86Box and VDE in Linux](https://fo.ax/kali-kit/html_docs/86box.html) section of the docs.
 
-Or, if you'd like to set host networking up with a set of well-chosen defaults, run the `start-emulator-network.sh` script.
+Or, if you'd like to set up host networking with a set of reasonably sensible defaults, run:
+```bash
+./start-emulator-network.sh
+```
 
 ## License
 

@@ -178,9 +178,9 @@ More information can be found in [Networking using 86Box and VDE in Linux](86box
 
 # Further reading and resources
 
-1. [Kali Official Homepage](https://kali.net)
-2. [mTCP](https://www.brutman.com/mTCP/)
-3. [Maraakate.org -- Kali Downloads](https://maraakate.org/Kali/downloads.html)
-4. [Novell Netware 4.11 Online Documentation](https://archive.org/details/novellnetware4.11networksoftware)
-5. [Ralf Brown's Interrupt List](https://www.cs.cmu.edu/~ralf/files.html)
-6. [IEEE 802.11 (Wi-Fi) Addressing: Transit, Multicast, and Mesh](https://datatracker.ietf.org/meeting/111/materials/slides-111-babel-ieee-80211-wi-fi-addressing-transit-multicast-mesh-00)
+* [Kali Official Homepage](https://kali.net)
+* [mTCP](https://www.brutman.com/mTCP/)
+* [Maraakate.org -- Kali Downloads](https://maraakate.org/Kali/downloads.html)
+* [Novell Netware 4.11 Online Documentation](https://archive.org/details/novellnetware4.11networksoftware)
+* [Ralf Brown's Interrupt List](https://www.cs.cmu.edu/~ralf/files.html)
+* [IEEE 802.11 (Wi-Fi) Addressing: Transit, Multicast, and Mesh](https://datatracker.ietf.org/meeting/111/materials/slides-111-babel-ieee-80211-wi-fi-addressing-transit-multicast-mesh-00)
