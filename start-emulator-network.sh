@@ -25,9 +25,6 @@ do
 	fi
 done
 
-IFS= read TAPDEV <<EOF
-$(sudo "$SCRIPT_DIR/bin/create-tap-device.sh" --tap-name "$BASE_NAME" "$USER" | grep 'TAP device' | sed 's/TAP device \(.*\) for.*/\1/')
-EOF
-readonly TAPDEV
+readonly TAPDEV="$(sudo "$SCRIPT_DIR/bin/create-tap-device.sh" --tap-name "$BASE_NAME" "$USER" | grep 'TAP device' | sed 's/TAP device \(.*\) for.*/\1/')"
 "$SCRIPT_DIR/bin/start-vde.sh" "$TAPDEV"
 sudo "$SCRIPT_DIR/bin/route-tap-to-gateway.sh" "$TAPDEV"
