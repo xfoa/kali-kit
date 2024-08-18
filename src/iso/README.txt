@@ -10,8 +10,11 @@ networks that only support TCP/IP, including the internet.
 The config files and guides included here assume a Novell NE1000 network
 adapter, but packet drivers are included for a large variety of NICs. 
 
-The latest version of this kit and the most up-to-date documentation can be
-found at https://fo.ax/kali-kit. Happy networking! 
+DOS-readable TXT documentation for this kit can be found in the DOCS directory
+of this CD, as well as specific documentation for tools and drivers in the
+READMEs in their directories. The latest version of this kit and the most
+up-to-date HTML documentation can be found at https://fo.ax/kali-kit. Happy
+networking! 
 
 
 Thanks
@@ -30,7 +33,8 @@ Thanks
 * Ulrich Hansen and W.Spiegl for their guide to FreeDOS networking and ODI
   https://home.mnet-online.de/willybilly/
 
-* Josh Jackson for his DOSBox NE2000 (including his NET.CFG)
+* Josh Jackson for his DOSBox NE2000 repo, on which some of the configuration
+  in this kit if based
   https://github.com/gammy/
 
 * Maraakate for hosting the versions of Kali used in this kit
