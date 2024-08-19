@@ -50,5 +50,5 @@ then
 fi
 
 # Start VDE
-vde_switch --mode 666 --numports 8 --tap "$TAP_DEVICE" --mgmt /tmp/vde.mgmt --mgmtmode 666 -s "$SWITCH_DIR" --daemon
+vde_switch --mode 666 --numports 8 --tap "$TAP_DEVICE" --mgmt "/tmp/vde.$TAP_DEVICE.mgmt" --mgmtmode 666 -s "$SWITCH_DIR" --daemon
 echo "Started VDE switch at $SWITCH_DIR with TAP interface $TAP_DEVICE attached. To stop it, kill the 'vde_switch' process."

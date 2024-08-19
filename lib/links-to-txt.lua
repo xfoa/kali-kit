@@ -21,3 +21,19 @@ end
 function Code(el)
   return pandoc.Str(el.text)
 end
+
+function Str(el)
+  if el.text == "💖" then
+    return pandoc.Str("")  
+  else
+    return el
+  end
+end
+
+function Strong(el)
+  return el.content
+end
+
+function Emph(el)
+  return el.content
+end

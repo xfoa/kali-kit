@@ -30,8 +30,8 @@ Thanks
 * Georg Potthast for his NICSCAN utility
   http://georgpotthast.de/
 
-* Russell Nelson (Crynwr) for making his very comprehensive packet driver
-  collection and tools open source <3
+* Russell Nelson (Crynwr) for making his very comprehensive open source packet
+  driver collection and tools
   http://crynwr.com/
 
 * Ulrich Hansen and W.Spiegl for their guide to FreeDOS networking and ODI

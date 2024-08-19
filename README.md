@@ -6,11 +6,11 @@ It's what I wished I had when I first set up Kali in 86Box!
 
 The programs and drivers collected here can be used directly from the `src/iso` directory, but the easiest way to get them onto a DOS machine with a CD-ROM drive is to create an ISO file using the included scripts.
 This can either be used with an emulator directly, or burned onto a CD to use with real hardware.
-The config files and guides included here assume a Novell NE1000 network adapter, but packet drivers are included for a large variety of NICs.
+The config files and guides included here assume a Novell NE1000 network adapter, but network drivers are included for a large variety of network adapters.
 
 ## Documentation
 
-An up-to-date version of the docs can be found [here](https://fo.ax/kali-kit/html_docs).
+An HTML version of the docs can be found [here](https://fo.ax/kali-kit/html_docs).
 
 ## Building the ISO
 
@@ -52,7 +52,7 @@ A guide for this is also available in the [Networking using 86Box and VDE in Lin
 
 Or, if you'd like to set up host networking with a set of reasonably sensible defaults, run:
 ```bash
-./start-emulator-network.sh
+./start-host-network.sh
 ```
 
 ## License
