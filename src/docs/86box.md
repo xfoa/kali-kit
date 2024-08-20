@@ -281,8 +281,9 @@ iptables -A FORWARD -i 86box0 -o eth0 -j ACCEPT
 ```
 
 ::: Warning
-Make sure that default gateway and DNS servers on the DOS guest are the same as what is set on *the host*, and **NOT** the host itself!
-That is to say, the guest uses the network's router and DNS servers directly (thanks NAT!), **NOT** the host!
+Make sure that default gateway on the DOS guest is set as the IP of the TAP interface *not* the outside network's gateway.
+The guest won't be able to ARP IPs on the outside network as it's on a separate subnet behind NAT.
+The DNS servers on the guest should match what is set on the host.
 :::
 
 ## Testing internet access

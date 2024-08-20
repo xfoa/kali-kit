@@ -50,6 +50,11 @@ while [[ $# -gt 0 ]]; do
 			;;
 		--ip|-i)
 			readonly TAP_IP_GIVEN="${2:?No IP supplied}"
+			if [[ ! "$TAP_IP_GIVEN" =~ [0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+$ ]]
+			then
+				echo "Error: invalid IP '$TAP_IP_GIVEN' -- must be in CIDR notation with a / prefix." >&2
+				exit 1
+			fi
 			shift
 			shift
 			;;
