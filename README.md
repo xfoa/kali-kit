@@ -8,6 +8,10 @@ The programs and drivers collected here can be used directly from the `src/iso` 
 This can either be used with an emulator directly, or burned onto a CD to use with real hardware.
 The config files and guides included here assume a Novell NE1000 network adapter, but network drivers are included for a large variety of network adapters.
 
+## Getting the ISO
+
+Head over to the [releases](https://github.com/xfoa/kali-kit/releases) section and you can download the latest version of the ISO, ready to mount or burn!
+
 ## Documentation
 
 An HTML version of the docs can be found [here](https://fo.ax/kali-kit/html_docs).
