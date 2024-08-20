@@ -11,3 +11,5 @@ If you would like to update or add to these docs, please do so on the project's 
 1. [An introduction to MS-DOS network drivers](drivers.md)
 2. [Installing network drivers and Kali in MS-DOS](install.md)
 3. [Networking using 86Box and VDE in Linux](86box.md)
+
+For help with using 86Box with PCAP on a Windows host, see the [86Box networking docs](https://86box.readthedocs.io/en/latest/hardware/network.html#pcap).
