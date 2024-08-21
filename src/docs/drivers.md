@@ -84,7 +84,8 @@ mTCP is included in this kit for testing/debugging purposes.
 There are some useful shims available to convert between different network APIs.
 Included in this kit are:
 
-* PDIPX, a shim that provides an IPX interface that can talk to a packet driver.
+* IPXPD, a shim that provides an IPX interface that can talk to a packet driver.
+* PDIPX, an older version of the IPXPD shim that is less reliable, but included for curiosity.
 * ODIPKT, a shim to expose ODI on a packet driver interface
 
 More can be found [here](https://www.shikadi.net/network/).

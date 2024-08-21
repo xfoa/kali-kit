@@ -31,9 +31,15 @@ Both PD and ODI drivers are included on the [Kali Kit](https:fo.ax/kali-kit) CD.
 If you're not sure which you want, I would recommend going with PD, as the memory footprint is smaller and they can be loaded high.
 
 ::: Caution
-PD and the IPX shim don't work well with SPX.
-Since most DOS games only use IPX with their own transport protocol, PD should be fine for this use case.
+PD and the older version of the IPX shim (`PDIPX.COM`) don't work well with old games or SPX.
+Use the newer version (`IPXPD.COM`) and everything should work.
 If you have issues with PD, try ODI instead.
+:::
+
+::: Note
+Both PD and ODI can use 802.3 (headers with length field) or the older Ethernet II (headers with type field) frames.
+By default, the `NETSTART.BAT` script for PD and `NET.CFG` for ODI use 802.3, but if you want to talk to devices that speak Ethernet II, this can be changed.
+Examples are provided in these files to change this.
 :::
 
 ## Packet driver
