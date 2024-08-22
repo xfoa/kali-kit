@@ -97,6 +97,7 @@ More can be found [here](https://www.shikadi.net/network/).
 * [Indiana University IT Servcies knowledgebase article on ODI](https://kb.iu.edu/d/acbt)
 * [Networking FreeDOS -- ODI driver installation](https://home.mnet-online.de/willybilly/fdhelp-dos/en/hhstndrd/network/odi_ins.htm)
 * [Novell's ODI LAN driver specifications](https://www.novell.com/developer/ndk/odi_lan_driver_components.html)
+* [Ethernet History Deepdive – Why Do We Have Different Frame Types?](https://lostintransit.se/2024/08/21/ethernet-history-deepdive-why-do-we-have-different-frame-types/)
 * [IPX/SPX on Wikipedia](https://en.wikipedia.org/wiki/IPX/SPX)
 * [mTCP](https://www.brutman.com/mTCP/)
 * [Watt-32 TCP/IP](https://www.watt-32.net/)
