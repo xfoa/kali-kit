@@ -37,8 +37,8 @@ If you have issues with PD, try ODI instead.
 :::
 
 ::: Note
-Both PD and ODI can use 802.3 (headers with length field) or the older Ethernet II (headers with type field) frames.
-By default, the `NETSTART.BAT` script for PD and `NET.CFG` for ODI use 802.3, but if you want to talk to devices that speak Ethernet II, this can be changed.
+Both PD and ODI can use Ethernet II (EtherType in header) or the older 802.3 (length in header) frames.
+By default, the `NETSTART.BAT` script for PD and `NET.CFG` for ODI use Ethernet II, but if you want to talk to devices that speak 802.3, this can be changed.
 Examples are provided in these files to change this.
 For more info on the history of different Ethernet frame types, see [this excellent article](https://lostintransit.se/2024/08/21/ethernet-history-deepdive-why-do-we-have-different-frame-types/) about them.
 :::
