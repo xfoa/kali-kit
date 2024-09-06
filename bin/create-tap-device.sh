@@ -25,9 +25,9 @@ Create a tun/tap device a the next available number.
 
 	--help | -h		Display this usage message.
 	--tap-name | -n NAME	Base name of the TAP device to create, without a number at the end. Defaults to 'tap'.
+        --tap-ip | -i IP	Specify an IP (with subnet prefix length) the TAP interface will use. Defaults to '10.1.0.1/16'.
 	--bridge| -b BRIDGE 	Connect TAP interface to bridge named BRIDGE (e.g. br0), which must already exist. Note:
                                 bridges can't usually be used with WiFi interfaces.
-        --tap-ip | -i IP	Specify an IP (with subnet prefix length) the TAP interface will use. Defaults to '10.1.0.1/16'.
 	USER			Username to create TAP device for.
 EOF
 }
@@ -48,7 +48,7 @@ while [[ $# -gt 0 ]]; do
 			shift
 			shift
 			;;
-		--ip|-i)
+		--tap-ip|-i)
 			readonly TAP_IP_GIVEN="${2:?No IP supplied}"
 			if [[ ! "$TAP_IP_GIVEN" =~ [0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+$ ]]
 			then
@@ -59,7 +59,7 @@ while [[ $# -gt 0 ]]; do
 			shift
 			;;
 		-*|--*)
-			echo "Unknown parameter $1" >&2
+			echo "Unknown parameter: $1" >&2
 			exit 1
 			;;
 		*)
@@ -72,7 +72,7 @@ done
 set -- "${PARGS[@]}"
 
 # Other vars
-readonly USER="${1:?No user name supplied}"
+readonly USERNAME="${1:?No user name supplied}"
 readonly TAP_NAME="${TAP_NAME_GIVEN:-tap}"
 readonly TAP_IP="${TAP_IP_GIVEN:-10.1.0.1/16}"
 
@@ -81,9 +81,9 @@ readonly TAP="$(ip link show type tun | grep $TAP_NAME | awk '{print $2}' | cut 
 readonly TAPDEV="$TAP_NAME$((${TAP:--1}+1))"
 
 # Create TAP for user
-ip tuntap add dev "$TAPDEV" mode tap user "$USER"
+ip tuntap add dev "$TAPDEV" mode tap user "$USERNAME"
 ip link set "$TAPDEV" up promisc on
 ip link set "$TAPDEV" ${BRIDGE:+master "$BRIDGE"}
 ip a add "$TAP_IP" dev "$TAPDEV"
-echo "TAP device $TAPDEV for user $USER ${BRIDGE:+, using bridge $BRIDGE}, with IP address $TAP_IP"
+echo "TAP device $TAPDEV for user $USERNAME ${BRIDGE:+, using bridge $BRIDGE}, with IP address $TAP_IP"
 echo "To remove it use command 'ip link delete $TAPDEV' as root"

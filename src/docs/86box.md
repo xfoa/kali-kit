@@ -17,7 +17,7 @@ Cool, run:
 ```
 
 from the [Kali Kit](https://github.com/xfoa/kali-kit/).
-Feel free to come back if something breaks!
+Feel free to come back here if something breaks!
 Good luck! 💖
 
 # Prerequisites

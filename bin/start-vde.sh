@@ -24,7 +24,7 @@ while [[ $# -gt 0 ]]; do
 			exit 1
 			;;
 		-*|--*)
-			echo "Unknown parameter $1" >&2
+			echo "Unknown parameter: $1" >&2
 			exit 1
 			;;
 		*)

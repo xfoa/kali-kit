@@ -31,7 +31,7 @@ while [[ $# -gt 0 ]]; do
 			exit 1
 			;;
 		-*|--*)
-			echo "Unknown parameter $1" >&2
+			echo "Unknown parameter: $1" >&2
 			exit 1
 			;;
 		*)
@@ -49,7 +49,7 @@ readonly TAP_CIDR="$(ip a show dev "$TAPDEV" | grep inet | grep -v inet6 | tr -s
 readonly TAP_IP="${TAP_CIDR%/*}"
 readonly GATEWAY_IF="$(ip route | grep default | tr -s ' ' | cut -d ' ' -f 5)"
 readonly DNS_IPS="$(nmcli dev show | grep 'IP4.DNS' | tr -s ' ' | cut -d ' ' -f 2)"
-readonly MASQ_IP="$(ip a show dev wlp0s20f3 | grep inet | grep -v inet6 | tr -s ' ' | cut -d' ' -f 3 | cut -d '/' -f1)"
+readonly MASQ_IP="$(ip a show dev $GATEWAY_IF | grep inet | grep -v inet6 | tr -s ' ' | cut -d' ' -f 3 | cut -d '/' -f1)"
 
 # Make sure TAP exists
 ip link show "$TAPDEV" > /dev/null
@@ -69,5 +69,5 @@ iptables -A FORWARD -i "$TAPDEV" -o "$GATEWAY_IF" -j ACCEPT
 echo "Routing has been set up between $TAPDEV and $GATEWAY_IF."
 echo "Traffic from $TAP_CIDR will be masqueraded as $MASQ_IP."
 echo "The default gateway in the VM needs to be set to: $TAP_IP"
-echo "The DNS servers in the VM need to beed set to:"
+echo "The DNS servers in the VM need to need set to:"
 echo "$DNS_IPS"
