@@ -76,6 +76,6 @@ do
 	fi
 done
 
-readonly TAPDEV="$(sudo "$SCRIPT_DIR/bin/create-tap-device.sh" --tap-name "$TAP_NAME" --ip "$TAP_IP" "$USERNAME" | grep 'TAP device' | sed 's/TAP device \(.*\) for.*/\1/')"
+readonly TAPDEV="$(sudo "$SCRIPT_DIR/bin/create-tap-device.sh" --tap-name "$TAP_NAME" --tap-ip "$TAP_IP" "$USERNAME" | grep 'TAP device' | sed 's/TAP device \(.*\) for.*/\1/')"
 "$SCRIPT_DIR/bin/start-vde.sh" "$TAPDEV"
 sudo "$SCRIPT_DIR/bin/route-tap-to-gateway.sh" "$TAPDEV"
