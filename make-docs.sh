@@ -2,7 +2,7 @@
 set -eu
 
 source lib/helpers.sh
-readonly DEPS=(unix2dos)
+readonly DEPS=(pandoc unix2dos)
 check_deps DEPS
 
 readonly HTML_DOCS_DIR='build/html_docs'
