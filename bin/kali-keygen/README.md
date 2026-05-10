@@ -2,10 +2,9 @@
 
 Bypass the need for a license key on Kali 1.4a.
 
-| File            | Description                                                                                                                                        |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| kali\_keygen.py | A script to generate valid keys for Kali 1.4a. For if you want to use an original, unmodified Kali 1.4a executable.                                |
-| KALI\_CRK.EXE   | A patched Kali 1.4a executable that doesn't do the license timer check. Leave license blank in config. Use this instead of the keygen if you like. |
-| patch\_timer.py | Script to patch Kali 1.4a executable with licence timer check bypass.                                                                              |
+| File                   | Description                                                                                                                                        |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| kali\_1.4a\_keygen.py  | A script to generate valid keys for Kali 1.4a, for if you want to use an original, unmodified Kali 1.4a executable.                                |
+| kali\_1.4a\_patcher.py | Script to patch Kali 1.4a executable with unlicenced timer check bypass. Leave the license options blank in Kali config. A pre-patched version is included in the ISO (KALI\_CRK.EXE). Alternative to using the keygen. |
 
 Cracked by foax.
