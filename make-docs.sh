@@ -21,4 +21,4 @@ do
 	pandoc -f markdown -t html5 --template lib/GitHub.html5 -o "$HTML_DOCS_DIR/$(basename ${doc/%.md/.html})" -s --lua-filter lib/links-to-html.lua "$doc" 
 	pandoc -f markdown-smart -t rst --columns 79 --ascii -o "$TXT_DOCS_DIR/$(basename ${doc/%.md/.txt})" -s --lua-filter lib/links-to-txt.lua "$doc" 
 done
-unix2dos "$TXT_DOCS_DIR"/*.txt
+unix2dos -f "$TXT_DOCS_DIR"/*.txt
