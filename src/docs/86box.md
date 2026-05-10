@@ -271,14 +271,14 @@ sysctl -w net.ipv4.ip_forward=1
 Then add a masquerade rule on the host for the TAP interface's IP address:
 
 ```
-iptables -t nat -A POSTROUTING -s 10.1.0.1/16 -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -s 10.1.0.1/16 -o wlan0 -j MASQUERADE
 ```
 
 And finally, make sure that our FORWARD chains have will accept our packets if our default policy is strict:
 
 ```
-iptables -A FORWARD -i eth0 -o 86box0 -m state --state RELATED,ESTABLISHED -j ACCEPT
-iptables -A FORWARD -i 86box0 -o eth0 -j ACCEPT
+iptables -A FORWARD -i wlan0 -o 86box0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i 86box0 -o wlan0 -j ACCEPT
 ```
 
 ::: Warning
@@ -286,6 +286,19 @@ Make sure that default gateway on the DOS guest is set as the IP of the TAP inte
 The guest won't be able to ARP IPs on the outside network as it's on a separate subnet behind NAT.
 The DNS servers on the guest should match what is set on the host.
 :::
+
+If you're setting up a DHCP server, you can use a config similar to this:
+
+```
+# dhcpd.conf
+#
+# Configuration file for ISC dhcpd (see 'man dhcpd.conf')
+#
+subnet 10.1.0.0 netmask 255.255.255.224 {
+  option routers 10.1.0.1 ;
+  range 10.1.0.10 10.1.0.15 ;
+}
+```
 
 ## Testing internet access
 
