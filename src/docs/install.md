@@ -94,7 +94,11 @@ Finally, we're here!
 There are two versions of Kali for DOS available on the [Kali Kit](https://fo.ax/kali-kit) CD:
 
 * v1.4a -- this was the final version of Kali released for DOS.
-  Use this if you have a valid Kali for DOS license key.
+  This version is time-limited to 15 minutes unless you have a license key.
+  Fortunately, I've reverse engineered the license key generation and have written a Python script to generate these. :)
+  You can find this (as well as documentation on how license checking works in Kali) in the [Git repo](https://github.com/xfoa/kali-kit/tree/main/bin/kali-keygen).
+  There's also a patcher for the Kali 1.4a executable to disable license timer checking entirely.
+  This can be used instead of generating keys if you like.
 * v1.2 -- this is a slightly older version that has a license crack by DiNK! applied.
   Use this version if you don't have a valid license key for Kali for DOS.
 
@@ -131,7 +135,20 @@ Kali will not try to use network drivers at all if it is!
 :::
 
 You should now be all done!
+The Kali executable will act as a client or server depending on arguments.
 Start or connect to a Kali server and play!
+
+Server:
+```
+cd \KALI
+kali
+```
+
+Client:
+```
+cd \KALI
+kali <IP OF SERVER>
+```
 
 # Installing Kali II on Windows
 
