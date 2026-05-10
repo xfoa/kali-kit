@@ -129,6 +129,7 @@ To do this:
 2. From the `Mode` dropdown, select `VDE`.
 3. In the `VDE Socket` text box, put the location of the VDE switch folder, e.g. `/tmp/vde.86box0`.
 4. Click `OK` and 86Box will reboot the guest.
+5. You may need to click `Media` -> `NIC01` -> `Connected`. This has tripped me up many times!
 
 You should now be able to send packets from DOS to an interface in Linux!
 To test this, we'll try sending some IPX and TCP/IP packets from DOS, and see if they appear on the TAP device on the host using `tcpdump`.
